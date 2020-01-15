@@ -1,0 +1,573 @@
+
+Processing vnpt.C+("filelist_Pbp_Ks.dat","Pbp120_150.root")...
+open: filelist_Pbp_Ks.dat
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_100.root:
+tree: 0x39b0000
+entries: 556895
+Efficienty correction is not being applied.
+Return from Framework
+framework set
+     50000   time per event (ms):         0.23480   elapsed time (min/h):         0.17617        0.00294
+    100000   time per event (ms):         0.21100   elapsed time (min/h):         0.35200        0.00587
+    150000   time per event (ms):         0.21060   elapsed time (min/h):         0.52750        0.00879
+    200000   time per event (ms):         0.21060   elapsed time (min/h):         0.70300        0.01172
+    250000   time per event (ms):         0.21080   elapsed time (min/h):         0.87867        0.01464
+    300000   time per event (ms):         0.21120   elapsed time (min/h):         1.05467        0.01758
+    350000   time per event (ms):         0.21100   elapsed time (min/h):         1.23050        0.02051
+    400000   time per event (ms):         0.21160   elapsed time (min/h):         1.40683        0.02345
+    450000   time per event (ms):         0.21120   elapsed time (min/h):         1.58283        0.02638
+    500000   time per event (ms):         0.21160   elapsed time (min/h):         1.75917        0.02932
+    550000   time per event (ms):         0.21140   elapsed time (min/h):         1.93533        0.03226
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_101.root:
+    600000   time per event (ms):         0.21680   elapsed time (min/h):         2.11600        0.03527
+    650000   time per event (ms):         0.21340   elapsed time (min/h):         2.29383        0.03823
+    700000   time per event (ms):         0.21320   elapsed time (min/h):         2.47150        0.04119
+    750000   time per event (ms):         0.21320   elapsed time (min/h):         2.64917        0.04415
+    800000   time per event (ms):         0.21320   elapsed time (min/h):         2.82683        0.04711
+    850000   time per event (ms):         0.21320   elapsed time (min/h):         3.00450        0.05008
+    900000   time per event (ms):         0.21320   elapsed time (min/h):         3.18217        0.05304
+    950000   time per event (ms):         0.21260   elapsed time (min/h):         3.35933        0.05599
+   1000000   time per event (ms):         0.21280   elapsed time (min/h):         3.53667        0.05894
+   1050000   time per event (ms):         0.21180   elapsed time (min/h):         3.71317        0.06189
+   1100000   time per event (ms):         0.21180   elapsed time (min/h):         3.88967        0.06483
+   1150000   time per event (ms):         0.21180   elapsed time (min/h):         4.06617        0.06777
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_102.root:
+   1200000   time per event (ms):         0.20980   elapsed time (min/h):         4.24100        0.07068
+   1250000   time per event (ms):         0.20800   elapsed time (min/h):         4.41433        0.07357
+   1300000   time per event (ms):         0.20760   elapsed time (min/h):         4.58733        0.07646
+   1350000   time per event (ms):         0.20780   elapsed time (min/h):         4.76050        0.07934
+   1400000   time per event (ms):         0.20760   elapsed time (min/h):         4.93350        0.08222
+   1450000   time per event (ms):         0.20740   elapsed time (min/h):         5.10633        0.08511
+   1500000   time per event (ms):         0.20800   elapsed time (min/h):         5.27967        0.08799
+   1550000   time per event (ms):         0.20800   elapsed time (min/h):         5.45300        0.09088
+   1600000   time per event (ms):         0.20780   elapsed time (min/h):         5.62617        0.09377
+   1650000   time per event (ms):         0.20740   elapsed time (min/h):         5.79900        0.09665
+   1700000   time per event (ms):         0.20740   elapsed time (min/h):         5.97183        0.09953
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_103.root:
+   1750000   time per event (ms):         0.20920   elapsed time (min/h):         6.14617        0.10244
+   1800000   time per event (ms):         0.20820   elapsed time (min/h):         6.31967        0.10533
+   1850000   time per event (ms):         0.20840   elapsed time (min/h):         6.49333        0.10822
+   1900000   time per event (ms):         0.20860   elapsed time (min/h):         6.66717        0.11112
+   1950000   time per event (ms):         0.20900   elapsed time (min/h):         6.84133        0.11402
+   2000000   time per event (ms):         0.20860   elapsed time (min/h):         7.01517        0.11692
+   2050000   time per event (ms):         0.20840   elapsed time (min/h):         7.18883        0.11981
+   2100000   time per event (ms):         0.20820   elapsed time (min/h):         7.36233        0.12271
+   2150000   time per event (ms):         0.20860   elapsed time (min/h):         7.53617        0.12560
+   2200000   time per event (ms):         0.20840   elapsed time (min/h):         7.70983        0.12850
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_104.root:
+   2250000   time per event (ms):         0.21000   elapsed time (min/h):         7.88483        0.13141
+   2300000   time per event (ms):         0.20860   elapsed time (min/h):         8.05867        0.13431
+   2350000   time per event (ms):         0.20860   elapsed time (min/h):         8.23250        0.13721
+   2400000   time per event (ms):         0.20820   elapsed time (min/h):         8.40600        0.14010
+   2450000   time per event (ms):         0.20860   elapsed time (min/h):         8.57983        0.14300
+   2500000   time per event (ms):         0.20880   elapsed time (min/h):         8.75383        0.14590
+   2550000   time per event (ms):         0.20860   elapsed time (min/h):         8.92767        0.14879
+   2600000   time per event (ms):         0.20880   elapsed time (min/h):         9.10167        0.15169
+   2650000   time per event (ms):         0.20820   elapsed time (min/h):         9.27517        0.15459
+   2700000   time per event (ms):         0.20860   elapsed time (min/h):         9.44900        0.15748
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_105.root:
+   2750000   time per event (ms):         0.21020   elapsed time (min/h):         9.62417        0.16040
+   2800000   time per event (ms):         0.20900   elapsed time (min/h):         9.79833        0.16331
+   2850000   time per event (ms):         0.20840   elapsed time (min/h):         9.97200        0.16620
+   2900000   time per event (ms):         0.20820   elapsed time (min/h):        10.14550        0.16909
+   2950000   time per event (ms):         0.20740   elapsed time (min/h):        10.31833        0.17197
+   3000000   time per event (ms):         0.20680   elapsed time (min/h):        10.49067        0.17484
+   3050000   time per event (ms):         0.20680   elapsed time (min/h):        10.66300        0.17772
+   3100000   time per event (ms):         0.20660   elapsed time (min/h):        10.83517        0.18059
+   3150000   time per event (ms):         0.20680   elapsed time (min/h):        11.00750        0.18346
+   3200000   time per event (ms):         0.20680   elapsed time (min/h):        11.17983        0.18633
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_106.root:
+   3250000   time per event (ms):         0.21280   elapsed time (min/h):        11.35717        0.18929
+   3300000   time per event (ms):         0.20720   elapsed time (min/h):        11.52983        0.19216
+   3350000   time per event (ms):         0.20740   elapsed time (min/h):        11.70267        0.19504
+   3400000   time per event (ms):         0.20800   elapsed time (min/h):        11.87600        0.19793
+   3450000   time per event (ms):         0.20760   elapsed time (min/h):        12.04900        0.20082
+   3500000   time per event (ms):         0.20700   elapsed time (min/h):        12.22150        0.20369
+   3550000   time per event (ms):         0.20720   elapsed time (min/h):        12.39417        0.20657
+   3600000   time per event (ms):         0.20700   elapsed time (min/h):        12.56667        0.20944
+   3650000   time per event (ms):         0.20700   elapsed time (min/h):        12.73917        0.21232
+   3700000   time per event (ms):         0.20720   elapsed time (min/h):        12.91183        0.21520
+   3750000   time per event (ms):         0.20680   elapsed time (min/h):        13.08417        0.21807
+   3800000   time per event (ms):         0.20700   elapsed time (min/h):        13.25667        0.22094
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_107.root:
+   3850000   time per event (ms):         0.20820   elapsed time (min/h):        13.43017        0.22384
+   3900000   time per event (ms):         0.20660   elapsed time (min/h):        13.60233        0.22671
+   3950000   time per event (ms):         0.20660   elapsed time (min/h):        13.77450        0.22958
+   4000000   time per event (ms):         0.20640   elapsed time (min/h):        13.94650        0.23244
+   4050000   time per event (ms):         0.20700   elapsed time (min/h):        14.11900        0.23532
+   4100000   time per event (ms):         0.20700   elapsed time (min/h):        14.29150        0.23819
+   4150000   time per event (ms):         0.20700   elapsed time (min/h):        14.46400        0.24107
+   4200000   time per event (ms):         0.20700   elapsed time (min/h):        14.63650        0.24394
+   4250000   time per event (ms):         0.20700   elapsed time (min/h):        14.80900        0.24682
+   4300000   time per event (ms):         0.20660   elapsed time (min/h):        14.98117        0.24969
+   4350000   time per event (ms):         0.20660   elapsed time (min/h):        15.15333        0.25256
+   4400000   time per event (ms):         0.20700   elapsed time (min/h):        15.32583        0.25543
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_108.root:
+   4450000   time per event (ms):         0.20840   elapsed time (min/h):        15.49950        0.25833
+   4500000   time per event (ms):         0.20760   elapsed time (min/h):        15.67250        0.26121
+   4550000   time per event (ms):         0.20760   elapsed time (min/h):        15.84550        0.26409
+   4600000   time per event (ms):         0.20720   elapsed time (min/h):        16.01817        0.26697
+   4650000   time per event (ms):         0.20720   elapsed time (min/h):        16.19083        0.26985
+   4700000   time per event (ms):         0.20700   elapsed time (min/h):        16.36333        0.27272
+   4750000   time per event (ms):         0.20700   elapsed time (min/h):        16.53583        0.27560
+   4800000   time per event (ms):         0.20700   elapsed time (min/h):        16.70833        0.27847
+   4850000   time per event (ms):         0.20680   elapsed time (min/h):        16.88067        0.28134
+   4900000   time per event (ms):         0.20680   elapsed time (min/h):        17.05300        0.28422
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_109.root:
+   4950000   time per event (ms):         0.21540   elapsed time (min/h):        17.23250        0.28721
+   5000000   time per event (ms):         0.21960   elapsed time (min/h):        17.41550        0.29026
+   5050000   time per event (ms):         0.21740   elapsed time (min/h):        17.59667        0.29328
+   5100000   time per event (ms):         0.21720   elapsed time (min/h):        17.77767        0.29629
+   5150000   time per event (ms):         0.21820   elapsed time (min/h):        17.95950        0.29932
+   5200000   time per event (ms):         0.21820   elapsed time (min/h):        18.14133        0.30236
+   5250000   time per event (ms):         0.21840   elapsed time (min/h):        18.32333        0.30539
+   5300000   time per event (ms):         0.21860   elapsed time (min/h):        18.50550        0.30842
+   5350000   time per event (ms):         0.21800   elapsed time (min/h):        18.68717        0.31145
+   5400000   time per event (ms):         0.21820   elapsed time (min/h):        18.86900        0.31448
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_10.root:
+   5450000   time per event (ms):         0.21960   elapsed time (min/h):        19.05200        0.31753
+   5500000   time per event (ms):         0.21800   elapsed time (min/h):        19.23367        0.32056
+   5550000   time per event (ms):         0.21900   elapsed time (min/h):        19.41617        0.32360
+   5600000   time per event (ms):         0.21780   elapsed time (min/h):        19.59767        0.32663
+   5650000   time per event (ms):         0.21760   elapsed time (min/h):        19.77900        0.32965
+   5700000   time per event (ms):         0.21720   elapsed time (min/h):        19.96000        0.33267
+   5750000   time per event (ms):         0.21680   elapsed time (min/h):        20.14067        0.33568
+   5800000   time per event (ms):         0.21440   elapsed time (min/h):        20.31933        0.33866
+   5850000   time per event (ms):         0.20540   elapsed time (min/h):        20.49050        0.34151
+   5900000   time per event (ms):         0.20520   elapsed time (min/h):        20.66150        0.34436
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_111.root:
+   5950000   time per event (ms):         0.20880   elapsed time (min/h):        20.83550        0.34726
+   6000000   time per event (ms):         0.20720   elapsed time (min/h):        21.00817        0.35014
+   6050000   time per event (ms):         0.20760   elapsed time (min/h):        21.18117        0.35302
+   6100000   time per event (ms):         0.20780   elapsed time (min/h):        21.35433        0.35591
+   6150000   time per event (ms):         0.20800   elapsed time (min/h):        21.52767        0.35879
+   6200000   time per event (ms):         0.20760   elapsed time (min/h):        21.70067        0.36168
+   6250000   time per event (ms):         0.20740   elapsed time (min/h):        21.87350        0.36456
+   6300000   time per event (ms):         0.20760   elapsed time (min/h):        22.04650        0.36744
+   6350000   time per event (ms):         0.20780   elapsed time (min/h):        22.21967        0.37033
+   6400000   time per event (ms):         0.20760   elapsed time (min/h):        22.39267        0.37321
+   6450000   time per event (ms):         0.20740   elapsed time (min/h):        22.56550        0.37609
+   6500000   time per event (ms):         0.20740   elapsed time (min/h):        22.73833        0.37897
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_112.root:
+   6550000   time per event (ms):         0.21080   elapsed time (min/h):        22.91400        0.38190
+   6600000   time per event (ms):         0.21900   elapsed time (min/h):        23.09650        0.38494
+   6650000   time per event (ms):         0.21860   elapsed time (min/h):        23.27867        0.38798
+   6700000   time per event (ms):         0.21980   elapsed time (min/h):        23.46183        0.39103
+   6750000   time per event (ms):         0.21440   elapsed time (min/h):        23.64050        0.39401
+   6800000   time per event (ms):         0.20680   elapsed time (min/h):        23.81283        0.39688
+   6850000   time per event (ms):         0.20700   elapsed time (min/h):        23.98533        0.39976
+   6900000   time per event (ms):         0.20680   elapsed time (min/h):        24.15767        0.40263
+   6950000   time per event (ms):         0.20720   elapsed time (min/h):        24.33033        0.40551
+   7000000   time per event (ms):         0.20720   elapsed time (min/h):        24.50300        0.40838
+   7050000   time per event (ms):         0.20780   elapsed time (min/h):        24.67617        0.41127
+   7100000   time per event (ms):         0.20720   elapsed time (min/h):        24.84883        0.41415
+   7150000   time per event (ms):         0.20700   elapsed time (min/h):        25.02133        0.41702
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_113.root:
+   7200000   time per event (ms):         0.20900   elapsed time (min/h):        25.19550        0.41992
+   7250000   time per event (ms):         0.20780   elapsed time (min/h):        25.36867        0.42281
+   7300000   time per event (ms):         0.20760   elapsed time (min/h):        25.54167        0.42569
+   7350000   time per event (ms):         0.20800   elapsed time (min/h):        25.71500        0.42858
+   7400000   time per event (ms):         0.20820   elapsed time (min/h):        25.88850        0.43147
+   7450000   time per event (ms):         0.20780   elapsed time (min/h):        26.06167        0.43436
+   7500000   time per event (ms):         0.20760   elapsed time (min/h):        26.23467        0.43724
+   7550000   time per event (ms):         0.20760   elapsed time (min/h):        26.40767        0.44013
+   7600000   time per event (ms):         0.20760   elapsed time (min/h):        26.58067        0.44301
+   7650000   time per event (ms):         0.20760   elapsed time (min/h):        26.75367        0.44589
+   7700000   time per event (ms):         0.20760   elapsed time (min/h):        26.92667        0.44878
+   7750000   time per event (ms):         0.20760   elapsed time (min/h):        27.09967        0.45166
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_114.root:
+   7800000   time per event (ms):         0.20940   elapsed time (min/h):        27.27417        0.45457
+   7850000   time per event (ms):         0.20800   elapsed time (min/h):        27.44750        0.45746
+   7900000   time per event (ms):         0.20800   elapsed time (min/h):        27.62083        0.46035
+   7950000   time per event (ms):         0.20800   elapsed time (min/h):        27.79417        0.46324
+   8000000   time per event (ms):         0.20820   elapsed time (min/h):        27.96767        0.46613
+   8050000   time per event (ms):         0.20800   elapsed time (min/h):        28.14100        0.46902
+   8100000   time per event (ms):         0.20800   elapsed time (min/h):        28.31433        0.47191
+   8150000   time per event (ms):         0.20800   elapsed time (min/h):        28.48767        0.47479
+   8200000   time per event (ms):         0.20800   elapsed time (min/h):        28.66100        0.47768
+   8250000   time per event (ms):         0.20800   elapsed time (min/h):        28.83433        0.48057
+   8300000   time per event (ms):         0.20780   elapsed time (min/h):        29.00750        0.48346
+   8350000   time per event (ms):         0.20840   elapsed time (min/h):        29.18117        0.48635
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_116.root:
+   8400000   time per event (ms):         0.20880   elapsed time (min/h):        29.35517        0.48925
+   8450000   time per event (ms):         0.20580   elapsed time (min/h):        29.52667        0.49211
+   8500000   time per event (ms):         0.20600   elapsed time (min/h):        29.69833        0.49497
+   8550000   time per event (ms):         0.20640   elapsed time (min/h):        29.87033        0.49784
+   8600000   time per event (ms):         0.20600   elapsed time (min/h):        30.04200        0.50070
+   8650000   time per event (ms):         0.20580   elapsed time (min/h):        30.21350        0.50356
+   8700000   time per event (ms):         0.20600   elapsed time (min/h):        30.38517        0.50642
+   8750000   time per event (ms):         0.20580   elapsed time (min/h):        30.55667        0.50928
+   8800000   time per event (ms):         0.20600   elapsed time (min/h):        30.72833        0.51214
+   8850000   time per event (ms):         0.20620   elapsed time (min/h):        30.90017        0.51500
+   8900000   time per event (ms):         0.20620   elapsed time (min/h):        31.07200        0.51787
+   8950000   time per event (ms):         0.20600   elapsed time (min/h):        31.24367        0.52073
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_118.root:
+   9000000   time per event (ms):         0.20740   elapsed time (min/h):        31.41650        0.52361
+   9050000   time per event (ms):         0.20760   elapsed time (min/h):        31.58950        0.52649
+   9100000   time per event (ms):         0.20760   elapsed time (min/h):        31.76250        0.52938
+   9150000   time per event (ms):         0.20740   elapsed time (min/h):        31.93533        0.53226
+   9200000   time per event (ms):         0.20760   elapsed time (min/h):        32.10833        0.53514
+   9250000   time per event (ms):         0.20760   elapsed time (min/h):        32.28133        0.53802
+   9300000   time per event (ms):         0.20800   elapsed time (min/h):        32.45467        0.54091
+   9350000   time per event (ms):         0.20840   elapsed time (min/h):        32.62833        0.54381
+   9400000   time per event (ms):         0.20800   elapsed time (min/h):        32.80167        0.54669
+   9450000   time per event (ms):         0.20760   elapsed time (min/h):        32.97467        0.54958
+   9500000   time per event (ms):         0.20820   elapsed time (min/h):        33.14817        0.55247
+   9550000   time per event (ms):         0.20760   elapsed time (min/h):        33.32117        0.55535
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_119.root:
+   9600000   time per event (ms):         0.21640   elapsed time (min/h):        33.50150        0.55836
+   9650000   time per event (ms):         0.21660   elapsed time (min/h):        33.68200        0.56137
+   9700000   time per event (ms):         0.20640   elapsed time (min/h):        33.85400        0.56423
+   9750000   time per event (ms):         0.20620   elapsed time (min/h):        34.02583        0.56710
+   9800000   time per event (ms):         0.20620   elapsed time (min/h):        34.19767        0.56996
+   9850000   time per event (ms):         0.20620   elapsed time (min/h):        34.36950        0.57283
+   9900000   time per event (ms):         0.20660   elapsed time (min/h):        34.54167        0.57569
+   9950000   time per event (ms):         0.20620   elapsed time (min/h):        34.71350        0.57856
+  10000000   time per event (ms):         0.20640   elapsed time (min/h):        34.88550        0.58142
+  10050000   time per event (ms):         0.20620   elapsed time (min/h):        35.05733        0.58429
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_11.root:
+  10100000   time per event (ms):         0.20780   elapsed time (min/h):        35.23050        0.58718
+  10150000   time per event (ms):         0.20900   elapsed time (min/h):        35.40467        0.59008
+  10200000   time per event (ms):         0.20960   elapsed time (min/h):        35.57933        0.59299
+  10250000   time per event (ms):         0.20900   elapsed time (min/h):        35.75350        0.59589
+  10300000   time per event (ms):         0.20920   elapsed time (min/h):        35.92783        0.59880
+  10350000   time per event (ms):         0.20900   elapsed time (min/h):        36.10200        0.60170
+  10400000   time per event (ms):         0.20940   elapsed time (min/h):        36.27650        0.60461
+  10450000   time per event (ms):         0.20920   elapsed time (min/h):        36.45083        0.60751
+  10500000   time per event (ms):         0.20940   elapsed time (min/h):        36.62533        0.61042
+  10550000   time per event (ms):         0.20920   elapsed time (min/h):        36.79967        0.61333
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_120.root:
+  10600000   time per event (ms):         0.21880   elapsed time (min/h):        36.98200        0.61637
+  10650000   time per event (ms):         0.21640   elapsed time (min/h):        37.16233        0.61937
+  10700000   time per event (ms):         0.21640   elapsed time (min/h):        37.34267        0.62238
+  10750000   time per event (ms):         0.20980   elapsed time (min/h):        37.51750        0.62529
+  10800000   time per event (ms):         0.20520   elapsed time (min/h):        37.68850        0.62814
+  10850000   time per event (ms):         0.20540   elapsed time (min/h):        37.85967        0.63099
+  10900000   time per event (ms):         0.20560   elapsed time (min/h):        38.03100        0.63385
+  10950000   time per event (ms):         0.20540   elapsed time (min/h):        38.20217        0.63670
+  11000000   time per event (ms):         0.20560   elapsed time (min/h):        38.37350        0.63956
+  11050000   time per event (ms):         0.20520   elapsed time (min/h):        38.54450        0.64241
+  11100000   time per event (ms):         0.20560   elapsed time (min/h):        38.71583        0.64526
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_121.root:
+  11150000   time per event (ms):         0.20880   elapsed time (min/h):        38.88983        0.64816
+  11200000   time per event (ms):         0.20840   elapsed time (min/h):        39.06350        0.65106
+  11250000   time per event (ms):         0.20860   elapsed time (min/h):        39.23733        0.65396
+  11300000   time per event (ms):         0.20840   elapsed time (min/h):        39.41100        0.65685
+  11350000   time per event (ms):         0.20800   elapsed time (min/h):        39.58433        0.65974
+  11400000   time per event (ms):         0.20860   elapsed time (min/h):        39.75817        0.66264
+  11450000   time per event (ms):         0.20860   elapsed time (min/h):        39.93200        0.66553
+  11500000   time per event (ms):         0.20840   elapsed time (min/h):        40.10567        0.66843
+  11550000   time per event (ms):         0.20880   elapsed time (min/h):        40.27967        0.67133
+  11600000   time per event (ms):         0.20900   elapsed time (min/h):        40.45383        0.67423
+  11650000   time per event (ms):         0.20860   elapsed time (min/h):        40.62767        0.67713
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_122.root:
+  11700000   time per event (ms):         0.21700   elapsed time (min/h):        40.80850        0.68014
+  11750000   time per event (ms):         0.22180   elapsed time (min/h):        40.99333        0.68322
+  11800000   time per event (ms):         0.21980   elapsed time (min/h):        41.17650        0.68628
+  11850000   time per event (ms):         0.22000   elapsed time (min/h):        41.35983        0.68933
+  11900000   time per event (ms):         0.22060   elapsed time (min/h):        41.54367        0.69239
+  11950000   time per event (ms):         0.22000   elapsed time (min/h):        41.72700        0.69545
+  12000000   time per event (ms):         0.21980   elapsed time (min/h):        41.91017        0.69850
+  12050000   time per event (ms):         0.21940   elapsed time (min/h):        42.09300        0.70155
+  12100000   time per event (ms):         0.22000   elapsed time (min/h):        42.27633        0.70461
+  12150000   time per event (ms):         0.21840   elapsed time (min/h):        42.45833        0.70764
+  12200000   time per event (ms):         0.21080   elapsed time (min/h):        42.63400        0.71057
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_123.root:
+  12250000   time per event (ms):         0.21660   elapsed time (min/h):        42.81450        0.71357
+  12300000   time per event (ms):         0.20560   elapsed time (min/h):        42.98583        0.71643
+  12350000   time per event (ms):         0.20560   elapsed time (min/h):        43.15717        0.71929
+  12400000   time per event (ms):         0.20540   elapsed time (min/h):        43.32833        0.72214
+  12450000   time per event (ms):         0.20540   elapsed time (min/h):        43.49950        0.72499
+  12500000   time per event (ms):         0.20580   elapsed time (min/h):        43.67100        0.72785
+  12550000   time per event (ms):         0.20600   elapsed time (min/h):        43.84267        0.73071
+  12600000   time per event (ms):         0.20620   elapsed time (min/h):        44.01450        0.73357
+  12650000   time per event (ms):         0.20580   elapsed time (min/h):        44.18600        0.73643
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_124.root:
+  12700000   time per event (ms):         0.20840   elapsed time (min/h):        44.35967        0.73933
+  12750000   time per event (ms):         0.22120   elapsed time (min/h):        44.54400        0.74240
+  12800000   time per event (ms):         0.21080   elapsed time (min/h):        44.71967        0.74533
+  12850000   time per event (ms):         0.20900   elapsed time (min/h):        44.89383        0.74823
+  12900000   time per event (ms):         0.20900   elapsed time (min/h):        45.06800        0.75113
+  12950000   time per event (ms):         0.20880   elapsed time (min/h):        45.24200        0.75403
+  13000000   time per event (ms):         0.20820   elapsed time (min/h):        45.41550        0.75692
+  13050000   time per event (ms):         0.20880   elapsed time (min/h):        45.58950        0.75982
+  13100000   time per event (ms):         0.20840   elapsed time (min/h):        45.76317        0.76272
+  13150000   time per event (ms):         0.20800   elapsed time (min/h):        45.93650        0.76561
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_125.root:
+  13200000   time per event (ms):         0.20980   elapsed time (min/h):        46.11133        0.76852
+  13250000   time per event (ms):         0.20820   elapsed time (min/h):        46.28483        0.77141
+  13300000   time per event (ms):         0.20900   elapsed time (min/h):        46.45900        0.77432
+  13350000   time per event (ms):         0.20860   elapsed time (min/h):        46.63283        0.77721
+  13400000   time per event (ms):         0.20900   elapsed time (min/h):        46.80700        0.78012
+  13450000   time per event (ms):         0.20900   elapsed time (min/h):        46.98117        0.78302
+  13500000   time per event (ms):         0.20840   elapsed time (min/h):        47.15483        0.78591
+  13550000   time per event (ms):         0.20880   elapsed time (min/h):        47.32883        0.78881
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_126.root:
+  13600000   time per event (ms):         0.20920   elapsed time (min/h):        47.50317        0.79172
+  13650000   time per event (ms):         0.22120   elapsed time (min/h):        47.68750        0.79479
+  13700000   time per event (ms):         0.22160   elapsed time (min/h):        47.87217        0.79787
+  13750000   time per event (ms):         0.22140   elapsed time (min/h):        48.05667        0.80094
+  13800000   time per event (ms):         0.22080   elapsed time (min/h):        48.24067        0.80401
+  13850000   time per event (ms):         0.22080   elapsed time (min/h):        48.42467        0.80708
+  13900000   time per event (ms):         0.22060   elapsed time (min/h):        48.60850        0.81014
+  13950000   time per event (ms):         0.22140   elapsed time (min/h):        48.79300        0.81322
+  14000000   time per event (ms):         0.20980   elapsed time (min/h):        48.96783        0.81613
+  14050000   time per event (ms):         0.20900   elapsed time (min/h):        49.14200        0.81903
+  14100000   time per event (ms):         0.20920   elapsed time (min/h):        49.31633        0.82194
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_127.root:
+  14150000   time per event (ms):         0.21940   elapsed time (min/h):        49.49917        0.82499
+  14200000   time per event (ms):         0.22000   elapsed time (min/h):        49.68250        0.82804
+  14250000   time per event (ms):         0.21920   elapsed time (min/h):        49.86517        0.83109
+  14300000   time per event (ms):         0.21940   elapsed time (min/h):        50.04800        0.83413
+  14350000   time per event (ms):         0.21900   elapsed time (min/h):        50.23050        0.83718
+  14400000   time per event (ms):         0.21940   elapsed time (min/h):        50.41333        0.84022
+  14450000   time per event (ms):         0.21500   elapsed time (min/h):        50.59250        0.84321
+  14500000   time per event (ms):         0.21660   elapsed time (min/h):        50.77300        0.84622
+  14550000   time per event (ms):         0.21340   elapsed time (min/h):        50.95083        0.84918
+  14600000   time per event (ms):         0.20700   elapsed time (min/h):        51.12333        0.85206
+  14650000   time per event (ms):         0.20640   elapsed time (min/h):        51.29533        0.85492
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_128.root:
+  14700000   time per event (ms):         0.21080   elapsed time (min/h):        51.47100        0.85785
+  14750000   time per event (ms):         0.21400   elapsed time (min/h):        51.64933        0.86082
+  14800000   time per event (ms):         0.21820   elapsed time (min/h):        51.83117        0.86385
+  14850000   time per event (ms):         0.21780   elapsed time (min/h):        52.01267        0.86688
+  14900000   time per event (ms):         0.21320   elapsed time (min/h):        52.19033        0.86984
+  14950000   time per event (ms):         0.20800   elapsed time (min/h):        52.36367        0.87273
+  15000000   time per event (ms):         0.20800   elapsed time (min/h):        52.53700        0.87562
+  15050000   time per event (ms):         0.20720   elapsed time (min/h):        52.70967        0.87849
+  15100000   time per event (ms):         0.20740   elapsed time (min/h):        52.88250        0.88138
+  15150000   time per event (ms):         0.20720   elapsed time (min/h):        53.05517        0.88425
+  15200000   time per event (ms):         0.20700   elapsed time (min/h):        53.22767        0.88713
+  15250000   time per event (ms):         0.20720   elapsed time (min/h):        53.40033        0.89001
+  15300000   time per event (ms):         0.20740   elapsed time (min/h):        53.57317        0.89289
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_129.root:
+  15350000   time per event (ms):         0.20840   elapsed time (min/h):        53.74683        0.89578
+  15400000   time per event (ms):         0.20720   elapsed time (min/h):        53.91950        0.89866
+  15450000   time per event (ms):         0.20760   elapsed time (min/h):        54.09250        0.90154
+  15500000   time per event (ms):         0.20740   elapsed time (min/h):        54.26533        0.90442
+  15550000   time per event (ms):         0.20740   elapsed time (min/h):        54.43817        0.90730
+  15600000   time per event (ms):         0.20740   elapsed time (min/h):        54.61100        0.91018
+  15650000   time per event (ms):         0.20740   elapsed time (min/h):        54.78383        0.91306
+  15700000   time per event (ms):         0.20740   elapsed time (min/h):        54.95667        0.91594
+  15750000   time per event (ms):         0.20720   elapsed time (min/h):        55.12933        0.91882
+  15800000   time per event (ms):         0.20740   elapsed time (min/h):        55.30217        0.92170
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_12.root:
+  15850000   time per event (ms):         0.20840   elapsed time (min/h):        55.47583        0.92460
+  15900000   time per event (ms):         0.20700   elapsed time (min/h):        55.64833        0.92747
+  15950000   time per event (ms):         0.20660   elapsed time (min/h):        55.82050        0.93034
+  16000000   time per event (ms):         0.20700   elapsed time (min/h):        55.99300        0.93322
+  16050000   time per event (ms):         0.20660   elapsed time (min/h):        56.16517        0.93609
+  16100000   time per event (ms):         0.20660   elapsed time (min/h):        56.33733        0.93896
+  16150000   time per event (ms):         0.20640   elapsed time (min/h):        56.50933        0.94182
+  16200000   time per event (ms):         0.20720   elapsed time (min/h):        56.68200        0.94470
+  16250000   time per event (ms):         0.20680   elapsed time (min/h):        56.85433        0.94757
+  16300000   time per event (ms):         0.20680   elapsed time (min/h):        57.02667        0.95044
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_130.root:
+  16350000   time per event (ms):         0.20820   elapsed time (min/h):        57.20017        0.95334
+  16400000   time per event (ms):         0.20740   elapsed time (min/h):        57.37300        0.95622
+  16450000   time per event (ms):         0.20720   elapsed time (min/h):        57.54567        0.95909
+  16500000   time per event (ms):         0.20740   elapsed time (min/h):        57.71850        0.96198
+  16550000   time per event (ms):         0.20760   elapsed time (min/h):        57.89150        0.96486
+  16600000   time per event (ms):         0.20740   elapsed time (min/h):        58.06433        0.96774
+  16650000   time per event (ms):         0.20740   elapsed time (min/h):        58.23717        0.97062
+  16700000   time per event (ms):         0.20720   elapsed time (min/h):        58.40983        0.97350
+  16750000   time per event (ms):         0.20720   elapsed time (min/h):        58.58250        0.97637
+  16800000   time per event (ms):         0.20700   elapsed time (min/h):        58.75500        0.97925
+  16850000   time per event (ms):         0.20680   elapsed time (min/h):        58.92733        0.98212
+  16900000   time per event (ms):         0.20740   elapsed time (min/h):        59.10017        0.98500
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_131.root:
+  16950000   time per event (ms):         0.20860   elapsed time (min/h):        59.27400        0.98790
+  17000000   time per event (ms):         0.20760   elapsed time (min/h):        59.44700        0.99078
+  17050000   time per event (ms):         0.20760   elapsed time (min/h):        59.62000        0.99367
+  17100000   time per event (ms):         0.20800   elapsed time (min/h):        59.79333        0.99656
+  17150000   time per event (ms):         0.20780   elapsed time (min/h):        59.96650        0.99944
+  17200000   time per event (ms):         0.20800   elapsed time (min/h):        60.13983        1.00233
+  17250000   time per event (ms):         0.20780   elapsed time (min/h):        60.31300        1.00522
+  17300000   time per event (ms):         0.20800   elapsed time (min/h):        60.48633        1.00811
+  17350000   time per event (ms):         0.20800   elapsed time (min/h):        60.65967        1.01099
+  17400000   time per event (ms):         0.20800   elapsed time (min/h):        60.83300        1.01388
+  17450000   time per event (ms):         0.20780   elapsed time (min/h):        61.00617        1.01677
+  17500000   time per event (ms):         0.20760   elapsed time (min/h):        61.17917        1.01965
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_132.root:
+  17550000   time per event (ms):         0.20940   elapsed time (min/h):        61.35367        1.02256
+  17600000   time per event (ms):         0.20720   elapsed time (min/h):        61.52633        1.02544
+  17650000   time per event (ms):         0.20680   elapsed time (min/h):        61.69867        1.02831
+  17700000   time per event (ms):         0.20680   elapsed time (min/h):        61.87100        1.03118
+  17750000   time per event (ms):         0.20680   elapsed time (min/h):        62.04333        1.03406
+  17800000   time per event (ms):         0.20700   elapsed time (min/h):        62.21583        1.03693
+  17850000   time per event (ms):         0.20640   elapsed time (min/h):        62.38783        1.03980
+  17900000   time per event (ms):         0.20660   elapsed time (min/h):        62.56000        1.04267
+  17950000   time per event (ms):         0.20660   elapsed time (min/h):        62.73217        1.04554
+  18000000   time per event (ms):         0.20640   elapsed time (min/h):        62.90417        1.04840
+  18050000   time per event (ms):         0.20640   elapsed time (min/h):        63.07617        1.05127
+  18100000   time per event (ms):         0.20660   elapsed time (min/h):        63.24833        1.05414
+  18150000   time per event (ms):         0.20680   elapsed time (min/h):        63.42067        1.05701
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_133.root:
+  18200000   time per event (ms):         0.20900   elapsed time (min/h):        63.59483        1.05991
+  18250000   time per event (ms):         0.20760   elapsed time (min/h):        63.76783        1.06280
+  18300000   time per event (ms):         0.20760   elapsed time (min/h):        63.94083        1.06568
+  18350000   time per event (ms):         0.20760   elapsed time (min/h):        64.11383        1.06856
+  18400000   time per event (ms):         0.20760   elapsed time (min/h):        64.28683        1.07145
+  18450000   time per event (ms):         0.20800   elapsed time (min/h):        64.46017        1.07434
+  18500000   time per event (ms):         0.20820   elapsed time (min/h):        64.63367        1.07723
+  18550000   time per event (ms):         0.20820   elapsed time (min/h):        64.80717        1.08012
+  18600000   time per event (ms):         0.20800   elapsed time (min/h):        64.98050        1.08301
+  18650000   time per event (ms):         0.20780   elapsed time (min/h):        65.15367        1.08589
+  18700000   time per event (ms):         0.20780   elapsed time (min/h):        65.32683        1.08878
+  18750000   time per event (ms):         0.20780   elapsed time (min/h):        65.50000        1.09167
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_134.root:
+  18800000   time per event (ms):         0.20940   elapsed time (min/h):        65.67450        1.09457
+  18850000   time per event (ms):         0.20780   elapsed time (min/h):        65.84767        1.09746
+  18900000   time per event (ms):         0.20820   elapsed time (min/h):        66.02117        1.10035
+  18950000   time per event (ms):         0.20820   elapsed time (min/h):        66.19467        1.10324
+  19000000   time per event (ms):         0.20840   elapsed time (min/h):        66.36833        1.10614
+  19050000   time per event (ms):         0.20880   elapsed time (min/h):        66.54233        1.10904
+  19100000   time per event (ms):         0.20840   elapsed time (min/h):        66.71600        1.11193
+  19150000   time per event (ms):         0.20840   elapsed time (min/h):        66.88967        1.11483
+  19200000   time per event (ms):         0.20840   elapsed time (min/h):        67.06333        1.11772
+  19250000   time per event (ms):         0.20820   elapsed time (min/h):        67.23683        1.12061
+  19300000   time per event (ms):         0.20840   elapsed time (min/h):        67.41050        1.12351
+  19350000   time per event (ms):         0.20820   elapsed time (min/h):        67.58400        1.12640
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_135.root:
+  19400000   time per event (ms):         0.21520   elapsed time (min/h):        67.76333        1.12939
+  19450000   time per event (ms):         0.21880   elapsed time (min/h):        67.94567        1.13243
+  19500000   time per event (ms):         0.21880   elapsed time (min/h):        68.12800        1.13547
+  19550000   time per event (ms):         0.21900   elapsed time (min/h):        68.31050        1.13851
+  19600000   time per event (ms):         0.21720   elapsed time (min/h):        68.49150        1.14153
+  19650000   time per event (ms):         0.21780   elapsed time (min/h):        68.67300        1.14455
+  19700000   time per event (ms):         0.21840   elapsed time (min/h):        68.85500        1.14758
+  19750000   time per event (ms):         0.21800   elapsed time (min/h):        69.03667        1.15061
+  19800000   time per event (ms):         0.21780   elapsed time (min/h):        69.21817        1.15364
+  19850000   time per event (ms):         0.21800   elapsed time (min/h):        69.39983        1.15666
+  19900000   time per event (ms):         0.21800   elapsed time (min/h):        69.58150        1.15969
+  19950000   time per event (ms):         0.21760   elapsed time (min/h):        69.76283        1.16271
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_136.root:
+  20000000   time per event (ms):         0.21920   elapsed time (min/h):        69.94550        1.16576
+  20050000   time per event (ms):         0.21820   elapsed time (min/h):        70.12733        1.16879
+  20100000   time per event (ms):         0.21800   elapsed time (min/h):        70.30900        1.17182
+  20150000   time per event (ms):         0.21840   elapsed time (min/h):        70.49100        1.17485
+  20200000   time per event (ms):         0.21880   elapsed time (min/h):        70.67333        1.17789
+  20250000   time per event (ms):         0.21960   elapsed time (min/h):        70.85633        1.18094
+  20300000   time per event (ms):         0.21820   elapsed time (min/h):        71.03817        1.18397
+  20350000   time per event (ms):         0.21840   elapsed time (min/h):        71.22017        1.18700
+  20400000   time per event (ms):         0.21900   elapsed time (min/h):        71.40267        1.19004
+  20450000   time per event (ms):         0.21160   elapsed time (min/h):        71.57900        1.19298
+  20500000   time per event (ms):         0.20700   elapsed time (min/h):        71.75150        1.19586
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_137.root:
+  20550000   time per event (ms):         0.21220   elapsed time (min/h):        71.92833        1.19881
+  20600000   time per event (ms):         0.21680   elapsed time (min/h):        72.10900        1.20182
+  20650000   time per event (ms):         0.21700   elapsed time (min/h):        72.28983        1.20483
+  20700000   time per event (ms):         0.21600   elapsed time (min/h):        72.46983        1.20783
+  20750000   time per event (ms):         0.21660   elapsed time (min/h):        72.65033        1.21084
+  20800000   time per event (ms):         0.21680   elapsed time (min/h):        72.83100        1.21385
+  20850000   time per event (ms):         0.20840   elapsed time (min/h):        73.00467        1.21674
+  20900000   time per event (ms):         0.20580   elapsed time (min/h):        73.17617        1.21960
+  20950000   time per event (ms):         0.20540   elapsed time (min/h):        73.34733        1.22246
+  21000000   time per event (ms):         0.20580   elapsed time (min/h):        73.51883        1.22531
+  21050000   time per event (ms):         0.20540   elapsed time (min/h):        73.69000        1.22817
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_138.root:
+  21100000   time per event (ms):         0.20800   elapsed time (min/h):        73.86333        1.23106
+  21150000   time per event (ms):         0.20640   elapsed time (min/h):        74.03533        1.23392
+  21200000   time per event (ms):         0.20620   elapsed time (min/h):        74.20717        1.23679
+  21250000   time per event (ms):         0.20640   elapsed time (min/h):        74.37917        1.23965
+  21300000   time per event (ms):         0.20640   elapsed time (min/h):        74.55117        1.24252
+  21350000   time per event (ms):         0.20640   elapsed time (min/h):        74.72317        1.24539
+  21400000   time per event (ms):         0.20640   elapsed time (min/h):        74.89517        1.24825
+  21450000   time per event (ms):         0.20620   elapsed time (min/h):        75.06700        1.25112
+  21500000   time per event (ms):         0.20640   elapsed time (min/h):        75.23900        1.25398
+  21550000   time per event (ms):         0.20600   elapsed time (min/h):        75.41067        1.25684
+  21600000   time per event (ms):         0.20660   elapsed time (min/h):        75.58283        1.25971
+infile:/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_139.root:
+Error in <TFile::TFile>: file /panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_139.root does not exist
+ZOMBIE:    /panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_139.root
+rm: cannot remove `/panfs/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_139.root': No such file or directory
+Processed 21639473 events
+================================
+vn distributions
+0.35700	-0.00975	-0.01837	-0.01406
+0.52931	0.01081	0.02170	0.01625
+0.70988	0.03805	0.03964	0.03884
+0.90380	0.08136	0.06323	0.07230
+1.19883	0.08215	0.09122	0.08669
+1.58911	0.10205	0.11251	0.10728
+1.98562	0.12582	0.13908	0.13245
+2.46289	0.15669	0.14382	0.15026
+3.13561	0.16662	0.16159	0.16411
+4.00722	0.16326	0.14744	0.15535
+5.14792	0.19713	0.14741	0.17227
+6.43314	0.22869	0.10928	0.16898
+7.61129	0.12137	0.07871	0.10004
+================================
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x000000333ecac89e in waitpid () from /lib64/libc.so.6
+#1  0x000000333ec3e4e9 in do_system () from /lib64/libc.so.6
+#2  0x00007f68a202da89 in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCore.so
+#3  0x00007f68a202f98c in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f68981f8aa3 in Framework::GetSpectra(int) () from /home/sanders/pPb_2016_v0/macros/vnpt_C.so
+#6  0x00007f68981fe012 in vnpt(std::string, std::string) () from /home/sanders/pPb_2016_v0/macros/vnpt_C.so
+#7  0x00007f6898c04089 in ?? ()
+#8  0x000000000351dfa0 in ?? ()
+#9  0x000000000353ef58 in ?? ()
+#10 0x00000000038b8bd8 in ?? ()
+#11 0x00000000034392f0 in ?? ()
+#12 0x00000000034392f0 in ?? ()
+#13 0x00000000038b8bd8 in ?? ()
+#14 0x00007ffe28a2a790 in ?? ()
+#15 0x00000000012dee80 in ?? ()
+#16 0x00007ffe28a2a790 in ?? ()
+#17 0x00007f68a1d63200 in ?? () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/external/gcc/5.3.0/lib64/libstdc++.so.6
+#18 0x00000000034e63b8 in ?? ()
+#19 0x0000000000000015 in ?? ()
+#20 0x00007ffe28a2a440 in ?? ()
+#21 0x00007f689ffa8d9b in cling::Interpreter::RunFunction(clang::FunctionDecl const*, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#22 0x00007f689ffaefc9 in cling::Interpreter::EvaluateInternal(std::string const&, cling::CompilationOptions, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#23 0x00007f689ffaf187 in cling::Interpreter::process(std::string const&, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#24 0x00007f68a0033a2b in cling::MetaProcessor::process(char const*, cling::Interpreter::CompilationResult&, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#25 0x00007f689ff3baed in TCling::ProcessLine(char const*, TInterpreter::EErrorCode*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#26 0x00007f689ff2c047 in TCling::ProcessLineSynch(char const*, TInterpreter::EErrorCode*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#27 0x00007f68a1f44950 in TApplication::ExecuteFile(char const*, int*, bool) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCore.so
+#28 0x00007f68a1f4583e in TApplication::ProcessLine(char const*, bool, int*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCore.so
+#29 0x00007f68a2152480 in TRint::ProcessLineNr(char const*, char const*, int*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libRint.so
+#30 0x00007f68a21537f7 in TRint::Run(bool) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libRint.so
+#31 0x00000000004010dc in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f68981f8aa3 in Framework::GetSpectra(int) () from /home/sanders/pPb_2016_v0/macros/vnpt_C.so
+#6  0x00007f68981fe012 in vnpt(std::string, std::string) () from /home/sanders/pPb_2016_v0/macros/vnpt_C.so
+#7  0x00007f6898c04089 in ?? ()
+#8  0x000000000351dfa0 in ?? ()
+#9  0x000000000353ef58 in ?? ()
+#10 0x00000000038b8bd8 in ?? ()
+#11 0x00000000034392f0 in ?? ()
+#12 0x00000000034392f0 in ?? ()
+#13 0x00000000038b8bd8 in ?? ()
+#14 0x00007ffe28a2a790 in ?? ()
+#15 0x00000000012dee80 in ?? ()
+#16 0x00007ffe28a2a790 in ?? ()
+#17 0x00007f68a1d63200 in ?? () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/external/gcc/5.3.0/lib64/libstdc++.so.6
+#18 0x00000000034e63b8 in ?? ()
+#19 0x0000000000000015 in ?? ()
+#20 0x00007ffe28a2a440 in ?? ()
+#21 0x00007f689ffa8d9b in cling::Interpreter::RunFunction(clang::FunctionDecl const*, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#22 0x00007f689ffaefc9 in cling::Interpreter::EvaluateInternal(std::string const&, cling::CompilationOptions, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#23 0x00007f689ffaf187 in cling::Interpreter::process(std::string const&, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+#24 0x00007f68a0033a2b in cling::MetaProcessor::process(char const*, cling::Interpreter::CompilationResult&, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc530/lcg/root/6.06.00-ikhhed5/lib/libCling.so
+===========================================================
+
+

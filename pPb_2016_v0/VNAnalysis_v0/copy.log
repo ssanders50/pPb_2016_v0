@@ -1,0 +1,1261 @@
+crab_pPb2016_Pbp_HM120_Ks
+crab_pPb2016_Pbp_HM120_Lambda
+crab_pPb2016_Pbp_HM150_Ks
+crab_pPb2016_Pbp_HM150_Lambda
+crab_pPb2016_Pbp_HM185_Ks_1
+crab_pPb2016_Pbp_HM185_Ks_2
+crab_pPb2016_Pbp_HM185_Ks_3
+crab_pPb2016_Pbp_HM185_Ks_4
+crab_pPb2016_Pbp_HM185_Ks_5
+crab_pPb2016_Pbp_HM185_Ks_6
+crab_pPb2016_Pbp_HM185_Lambda_1
+crab_pPb2016_Pbp_HM185_Lambda_2
+crab_pPb2016_Pbp_HM185_Lambda_3
+crab_pPb2016_Pbp_HM185_Lambda_4
+crab_pPb2016_Pbp_HM185_Lambda_5
+crab_pPb2016_Pbp_HM185_Lambda_6
+crab_pPb2016_Pbp_HM250_Ks_7
+crab_pPb2016_Pbp_HM250_Lambda_7
+crab_pPb2016_Pbp_Ks
+crab_pPb2016_Pbp_Lambda
+crab_pPb2016_pPb_HM120_Ks
+crab_pPb2016_pPb_HM120_Lambda
+crab_pPb2016_pPb_HM150_Ks
+crab_pPb2016_pPb_HM150_Lambda
+crab_pPb2016_pPb_HM185_Ks_1
+crab_pPb2016_pPb_HM185_Ks_2
+crab_pPb2016_pPb_HM185_Ks_3
+crab_pPb2016_pPb_HM185_Ks_4
+crab_pPb2016_pPb_HM185_Ks_5
+crab_pPb2016_pPb_HM185_Ks_6
+crab_pPb2016_pPb_HM185_Lambda_1
+crab_pPb2016_pPb_HM185_Lambda_2
+crab_pPb2016_pPb_HM185_Lambda_3
+crab_pPb2016_pPb_HM185_Lambda_4
+crab_pPb2016_pPb_HM185_Lambda_5
+crab_pPb2016_pPb_HM185_Lambda_6
+crab_pPb2016_pPb_HM250_Ks_7
+crab_pPb2016_pPb_HM250_Lambda_7
+crab_pPb2016_pPb_Ks
+crab_pPb2016_pPb_Lambda
+CreateCrab3Copy
+i 0	crab_pPb2016_Pbp_HM120_Ks
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM120_Ks
+Task name:			200110_172203:ssanders_crab_pPb2016_Pbp_HM120_Ks
+Grid scheduler - Task Worker:	crab3@vocms0144.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_172203%3Assanders_crab_pPb2016_Pbp_HM120_Ks
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_172203%3Assanders_crab_pPb2016_Pbp_HM120_Ks
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    finished     		 99.4% (473/476)
+				toRetry      		  0.6% (  3/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 1703MB max, 941MB ave
+ * Runtime: 0:00:00 min, 14:04:07 max, 4:22:33 ave
+ * CPU eff: 0% min, 66% max, 48% ave
+ * Waste: 201:28:17 (9% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM120_Ks/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM120_Ks >> crab_pPb2016_Pbp_HM120_Ks_files.lis
+Reading from crab_pPb2016_Pbp_HM120_Ks_files.lis
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Ks/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Ks/200110_172203/0000/vnanal_182.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_182.root
+[2.108MB/2.108MB][100%][==================================================][154.2kB/s]  [2.108MB/2.108MB][100%][==================================================][154.2kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Ks/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Ks/200110_172203/0000/vnanal_46.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_46.root
+[2.102MB/2.102MB][100%][==================================================][165.6kB/s]  [2.102MB/2.102MB][100%][==================================================][165.6kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Ks/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Ks/200110_172203/0000/vnanal_158.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Ks/vnanal_158.root
+[2.101MB/2.101MB][100%][==================================================][239kB/s]  [2.101MB/2.101MB][100%][==================================================][239kB/s]  
+Another 470 files were FOUND.
+ ====================================================
+i 1	crab_pPb2016_Pbp_HM120_Lambda
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM120_Lambda
+Task name:			200112_172727:ssanders_crab_pPb2016_Pbp_HM120_Lambda
+Grid scheduler - Task Worker:	crab3@vocms0121.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_172727%3Assanders_crab_pPb2016_Pbp_HM120_Lambda
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_172727%3Assanders_crab_pPb2016_Pbp_HM120_Lambda
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    failed       		  0.7% (  3/420)
+				finished     		  4.8% ( 20/420)
+				idle         		 74.0% (311/420)
+				running      		  1.4% (  6/420)
+				unsubmitted  		 19.0% ( 80/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  2 jobs failed with exit code 134
+
+Could not find exit code details for 1 jobs.
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 943MB max, 886MB ave
+ * Runtime: 0:00:00 min, 2:16:22 max, 1:18:47 ave
+ * CPU eff: 2% min, 70% max, 34% ave
+ * Waste: 0:03:24 (0% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM120_Lambda >> crab_pPb2016_Pbp_HM120_Lambda_files.lis
+Reading from crab_pPb2016_Pbp_HM120_Lambda_files.lis
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_22.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_22.root
+[1.96MB/1.96MB][100%][==================================================][91.23kB/s]  [1.96MB/1.96MB][100%][==================================================][91.23kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_24.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_24.root
+[1.959MB/1.959MB][100%][==================================================][200.6kB/s]  [1.959MB/1.959MB][100%][==================================================][200.6kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_29.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_29.root
+[1.961MB/1.961MB][100%][==================================================][154.5kB/s]  [1.961MB/1.961MB][100%][==================================================][154.5kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_28.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_28.root
+[1.96MB/1.96MB][100%][==================================================][200.7kB/s]  [1.96MB/1.96MB][100%][==================================================][200.7kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_25.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_25.root
+[1.961MB/1.961MB][100%][==================================================][105.7kB/s]  [1.961MB/1.961MB][100%][==================================================][105.7kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_26.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_26.root
+[1.959MB/1.959MB][100%][==================================================][111.5kB/s]  [1.959MB/1.959MB][100%][==================================================][111.5kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_20.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_20.root
+[1.96MB/1.96MB][100%][==================================================][154.4kB/s]  [1.96MB/1.96MB][100%][==================================================][143.4kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_18.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_18.root
+[1.962MB/1.962MB][100%][==================================================][182.6kB/s]  [1.962MB/1.962MB][100%][==================================================][167.4kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_17.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_17.root
+[1.964MB/1.964MB][100%][==================================================][251.4kB/s]  [1.964MB/1.964MB][100%][==================================================][251.4kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_16.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_16.root
+[0B/0B][100%][==================================================][0B/s]  
+Run: [FATAL] Redirect limit has been reached
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_15.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_15.root
+[1.964MB/1.964MB][100%][==================================================][201.1kB/s]  [1.964MB/1.964MB][100%][==================================================][201.1kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_14.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_14.root
+[1.963MB/1.963MB][100%][==================================================][287.2kB/s]  [1.963MB/1.963MB][100%][==================================================][287.2kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_13.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_13.root
+[1.968MB/1.968MB][100%][==================================================][155kB/s]  [1.968MB/1.968MB][100%][==================================================][155kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_12.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_12.root
+[1.965MB/1.965MB][100%][==================================================][335.4kB/s]  [1.965MB/1.965MB][100%][==================================================][335.4kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM120_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM120_Lambda/200112_172727/0000/vnanal_11.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/vnanal_11.root
+[1.97MB/1.97MB][100%][==================================================][288.2kB/s]  [1.97MB/1.97MB][100%][==================================================][288.2kB/s]  
+Another 5 files were FOUND.
+ ====================================================
+i 2	crab_pPb2016_Pbp_HM150_Ks
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM150_Ks
+Task name:			200110_172321:ssanders_crab_pPb2016_Pbp_HM150_Ks
+Grid scheduler - Task Worker:	crab3@vocms0196.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_172321%3Assanders_crab_pPb2016_Pbp_HM150_Ks
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_172321%3Assanders_crab_pPb2016_Pbp_HM150_Ks
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    finished     		 92.0% (438/476)
+				idle         		  8.0% ( 38/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 1769MB max, 945MB ave
+ * Runtime: 0:00:00 min, 18:55:22 max, 5:20:37 ave
+ * CPU eff: 10% min, 70% max, 39% ave
+ * Waste: 72:23:35 (3% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM150_Ks/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM150_Ks >> crab_pPb2016_Pbp_HM150_Ks_files.lis
+Reading from crab_pPb2016_Pbp_HM150_Ks_files.lis
+Another 438 files were FOUND.
+ ====================================================
+i 3	crab_pPb2016_Pbp_HM150_Lambda
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM150_Lambda
+Task name:			200112_172829:ssanders_crab_pPb2016_Pbp_HM150_Lambda
+Grid scheduler - Task Worker:	crab3@vocms0155.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_172829%3Assanders_crab_pPb2016_Pbp_HM150_Lambda
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_172829%3Assanders_crab_pPb2016_Pbp_HM150_Lambda
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    finished     		  1.2% (  5/420)
+				idle         		 97.6% (410/420)
+				unsubmitted  		  1.2% (  5/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 962MB max, 927MB ave
+ * Runtime: 0:00:00 min, 1:27:02 max, 1:18:13 ave
+ * CPU eff: 26% min, 40% max, 33% ave
+ * Waste: 0:00:34 (0% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM150_Lambda/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM150_Lambda >> crab_pPb2016_Pbp_HM150_Lambda_files.lis
+Reading from crab_pPb2016_Pbp_HM150_Lambda_files.lis
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM150_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM150_Lambda/200112_172829/0000/vnanal_10.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM150_Lambda/vnanal_10.root
+[1.86MB/1.86MB][100%][==================================================][158.8kB/s]  [1.86MB/1.86MB][100%][==================================================][158.8kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM150_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM150_Lambda/200112_172829/0000/vnanal_9.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM150_Lambda/vnanal_9.root
+[1.861MB/1.861MB][100%][==================================================][272.2kB/s]  [1.861MB/1.861MB][100%][==================================================][272.2kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM150_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM150_Lambda/200112_172829/0000/vnanal_8.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM150_Lambda/vnanal_8.root
+[1.865MB/1.865MB][100%][==================================================][159.1kB/s]  [1.865MB/1.865MB][100%][==================================================][159.1kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM150_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM150_Lambda/200112_172829/0000/vnanal_7.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM150_Lambda/vnanal_7.root
+[0B/0B][100%][==================================================][0B/s]  
+Run: [FATAL] Redirect limit has been reached
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM150_Lambda/PAHighMultiplicity0/crab_pPb2016_Pbp_HM150_Lambda/200112_172829/0000/vnanal_6.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM150_Lambda/vnanal_6.root
+[0B/0B][100%][==================================================][0B/s]  
+Run: [FATAL] Redirect limit has been reached
+Another 0 files were FOUND.
+ ====================================================
+i 4	crab_pPb2016_Pbp_HM185_Ks_1
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_1
+Task name:			200110_022942:ssanders_crab_pPb2016_Pbp_HM185_Ks_1
+Grid scheduler - Task Worker:	crab3@vocms0106.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_022942%3Assanders_crab_pPb2016_Pbp_HM185_Ks_1
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_022942%3Assanders_crab_pPb2016_Pbp_HM185_Ks_1
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  2.1% ( 10/476)
+				finished     		 97.9% (466/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  5 jobs failed with exit code 8028
+
+  4 jobs failed with exit code 134
+
+  1 jobs failed with exit code 8022
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 2MB min, 1680MB max, 897MB ave
+ * Runtime: 0:02:14 min, 8:27:06 max, 2:24:40 ave
+ * CPU eff: 9% min, 75% max, 44% ave
+ * Waste: 70:27:12 (6% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_1/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Ks_1 >> crab_pPb2016_Pbp_HM185_Ks_1_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Ks_1_files.lis
+Another 466 files were FOUND.
+ ====================================================
+i 5	crab_pPb2016_Pbp_HM185_Ks_2
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_2
+Task name:			200110_023812:ssanders_crab_pPb2016_Pbp_HM185_Ks_2
+Grid scheduler - Task Worker:	crab3@vocms0194.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_023812%3Assanders_crab_pPb2016_Pbp_HM185_Ks_2
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_023812%3Assanders_crab_pPb2016_Pbp_HM185_Ks_2
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  0.2% (  1/476)
+				finished     		 99.8% (475/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  1 jobs failed with exit code 8028
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Summary of run jobs:
+ * Memory: 2MB min, 1605MB max, 906MB ave
+ * Runtime: 0:01:22 min, 7:30:48 max, 2:01:28 ave
+ * CPU eff: 18% min, 77% max, 54% ave
+ * Waste: 55:40:19 (5% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_2/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Ks_2 >> crab_pPb2016_Pbp_HM185_Ks_2_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Ks_2_files.lis
+Another 475 files were FOUND.
+ ====================================================
+i 6	crab_pPb2016_Pbp_HM185_Ks_3
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_3
+Task name:			200110_023957:ssanders_crab_pPb2016_Pbp_HM185_Ks_3
+Grid scheduler - Task Worker:	crab3@vocms0119.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_023957%3Assanders_crab_pPb2016_Pbp_HM185_Ks_3
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_023957%3Assanders_crab_pPb2016_Pbp_HM185_Ks_3
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  0.2% (  1/476)
+				finished     		 99.8% (475/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  1 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Summary of run jobs:
+ * Memory: 31MB min, 989MB max, 907MB ave
+ * Runtime: 0:01:33 min, 4:46:52 max, 1:50:54 ave
+ * CPU eff: 15% min, 76% max, 59% ave
+ * Waste: 26:04:09 (3% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_3/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Ks_3 >> crab_pPb2016_Pbp_HM185_Ks_3_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Ks_3_files.lis
+Another 475 files were FOUND.
+ ====================================================
+i 7	crab_pPb2016_Pbp_HM185_Ks_4
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_4
+Task name:			200110_125241:ssanders_crab_pPb2016_Pbp_HM185_Ks_4
+Grid scheduler - Task Worker:	crab3@vocms0106.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_125241%3Assanders_crab_pPb2016_Pbp_HM185_Ks_4
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_125241%3Assanders_crab_pPb2016_Pbp_HM185_Ks_4
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  2.3% ( 11/474)
+				finished     		 97.7% (463/474)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+ 10 jobs failed with exit code 134
+
+  1 jobs failed with exit code 8028
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Summary of run jobs:
+ * Memory: 29MB min, 1719MB max, 905MB ave
+ * Runtime: 0:02:05 min, 7:05:49 max, 2:07:39 ave
+ * CPU eff: 13% min, 80% max, 54% ave
+ * Waste: 91:17:38 (8% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_4/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Ks_4 >> crab_pPb2016_Pbp_HM185_Ks_4_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Ks_4_files.lis
+Another 463 files were FOUND.
+ ====================================================
+i 8	crab_pPb2016_Pbp_HM185_Ks_5
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_5
+Task name:			200110_130329:ssanders_crab_pPb2016_Pbp_HM185_Ks_5
+Grid scheduler - Task Worker:	crab3@vocms0195.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_130329%3Assanders_crab_pPb2016_Pbp_HM185_Ks_5
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_130329%3Assanders_crab_pPb2016_Pbp_HM185_Ks_5
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  1.9% (  9/476)
+				finished     		 98.1% (467/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  9 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 35MB min, 1004MB max, 909MB ave
+ * Runtime: 0:01:37 min, 14:26:15 max, 2:40:05 ave
+ * CPU eff: 10% min, 74% max, 39% ave
+ * Waste: 65:01:13 (5% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_5/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Ks_5 >> crab_pPb2016_Pbp_HM185_Ks_5_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Ks_5_files.lis
+Another 467 files were FOUND.
+ ====================================================
+i 9	crab_pPb2016_Pbp_HM185_Ks_6
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_6
+Task name:			200110_130451:ssanders_crab_pPb2016_Pbp_HM185_Ks_6
+Grid scheduler - Task Worker:	crab3-5@vocms059.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_130451%3Assanders_crab_pPb2016_Pbp_HM185_Ks_6
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_130451%3Assanders_crab_pPb2016_Pbp_HM185_Ks_6
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  1.5% (  7/476)
+				finished     		 98.5% (469/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  7 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Summary of run jobs:
+ * Memory: 2MB min, 1701MB max, 915MB ave
+ * Runtime: 0:04:52 min, 6:34:58 max, 1:59:34 ave
+ * CPU eff: 14% min, 76% max, 56% ave
+ * Waste: 80:31:35 (8% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Ks_6/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Ks_6 >> crab_pPb2016_Pbp_HM185_Ks_6_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Ks_6_files.lis
+Another 469 files were FOUND.
+ ====================================================
+i 10	crab_pPb2016_Pbp_HM185_Lambda_1
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_1
+Task name:			200112_182009:ssanders_crab_pPb2016_Pbp_HM185_Lambda_1
+Grid scheduler - Task Worker:	crab3@vocms0194.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_182009%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_1
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_182009%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_1
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    finished     		  7.9% ( 33/420)
+				idle         		 92.1% (387/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Summary of run jobs:
+ * Memory: 0MB min, 979MB max, 267MB ave
+ * Runtime: 0:00:00 min, 1:14:41 max, 0:17:09 ave
+ * CPU eff: 10% min, 77% max, 65% ave
+ * Waste: 0:21:51 (4% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_1/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Lambda_1 >> crab_pPb2016_Pbp_HM185_Lambda_1_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Lambda_1_files.lis
+Another 33 files were FOUND.
+ ====================================================
+i 11	crab_pPb2016_Pbp_HM185_Lambda_2
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_2
+Task name:			200112_182135:ssanders_crab_pPb2016_Pbp_HM185_Lambda_2
+Grid scheduler - Task Worker:	crab3@vocms0121.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_182135%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_2
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_182135%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_2
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 82.9% (348/420)
+				unsubmitted  		 17.1% ( 72/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_2/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Lambda_2 >> crab_pPb2016_Pbp_HM185_Lambda_2_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Lambda_2_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_2/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 12	crab_pPb2016_Pbp_HM185_Lambda_3
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_3
+Task name:			200112_182739:ssanders_crab_pPb2016_Pbp_HM185_Lambda_3
+Grid scheduler - Task Worker:	crab3@vocms0196.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_182739%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_3
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_182739%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_3
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 79.0% (332/420)
+				unsubmitted  		 21.0% ( 88/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_3/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Lambda_3 >> crab_pPb2016_Pbp_HM185_Lambda_3_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Lambda_3_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_3/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 13	crab_pPb2016_Pbp_HM185_Lambda_4
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_4
+Task name:			200112_183138:ssanders_crab_pPb2016_Pbp_HM185_Lambda_4
+Grid scheduler - Task Worker:	crab3@vocms0144.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_183138%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_4
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_183138%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_4
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 83.3% (350/420)
+				unsubmitted  		 16.7% ( 70/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_4/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Lambda_4 >> crab_pPb2016_Pbp_HM185_Lambda_4_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Lambda_4_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_4/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 14	crab_pPb2016_Pbp_HM185_Lambda_5
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_5
+Task name:			200112_183608:ssanders_crab_pPb2016_Pbp_HM185_Lambda_5
+Grid scheduler - Task Worker:	crab3@vocms0194.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_183608%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_5
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_183608%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_5
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		100.0% (420/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_5/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Lambda_5 >> crab_pPb2016_Pbp_HM185_Lambda_5_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Lambda_5_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_5/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 15	crab_pPb2016_Pbp_HM185_Lambda_6
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_6
+Task name:			200112_183733:ssanders_crab_pPb2016_Pbp_HM185_Lambda_6
+Grid scheduler - Task Worker:	crab3@vocms0155.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_183733%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_6
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_183733%3Assanders_crab_pPb2016_Pbp_HM185_Lambda_6
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 76.9% (323/420)
+				unsubmitted  		 23.1% ( 97/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_6/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM185_Lambda_6 >> crab_pPb2016_Pbp_HM185_Lambda_6_files.lis
+Reading from crab_pPb2016_Pbp_HM185_Lambda_6_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_6/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 16	crab_pPb2016_Pbp_HM250_Ks_7
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM250_Ks_7
+Task name:			200110_130617:ssanders_crab_pPb2016_Pbp_HM250_Ks_7
+Grid scheduler - Task Worker:	crab3@vocms0122.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_130617%3Assanders_crab_pPb2016_Pbp_HM250_Ks_7
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_130617%3Assanders_crab_pPb2016_Pbp_HM250_Ks_7
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  1.9% (  9/476)
+				finished     		 98.1% (467/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  9 jobs failed with exit code 139
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 2MB min, 1670MB max, 889MB ave
+ * Runtime: 0:01:46 min, 4:42:10 max, 1:07:21 ave
+ * CPU eff: 16% min, 72% max, 49% ave
+ * Waste: 49:29:46 (8% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM250_Ks_7/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM250_Ks_7 >> crab_pPb2016_Pbp_HM250_Ks_7_files.lis
+Reading from crab_pPb2016_Pbp_HM250_Ks_7_files.lis
+Another 467 files were FOUND.
+ ====================================================
+i 17	crab_pPb2016_Pbp_HM250_Lambda_7
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7
+Task name:			200112_183956:ssanders_crab_pPb2016_Pbp_HM250_Lambda_7
+Grid scheduler - Task Worker:	crab3@vocms0195.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_183956%3Assanders_crab_pPb2016_Pbp_HM250_Lambda_7
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_183956%3Assanders_crab_pPb2016_Pbp_HM250_Lambda_7
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    finished     		  6.9% ( 29/420)
+				idle         		 73.6% (309/420)
+				unsubmitted  		 19.5% ( 82/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 911MB max, 108MB ave
+ * Runtime: 0:00:00 min, 2:30:16 max, 0:16:30 ave
+ * CPU eff: 17% min, 46% max, 26% ave
+ * Waste: 0:30:32 (6% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7 >> crab_pPb2016_Pbp_HM250_Lambda_7_files.lis
+Reading from crab_pPb2016_Pbp_HM250_Lambda_7_files.lis
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_35.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_35.root
+[0B/0B][100%][==================================================][0B/s]  
+Run: [FATAL] Redirect limit has been reached
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_33.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_33.root
+[1.702MB/1.702MB][100%][==================================================][348.6kB/s]  [1.702MB/1.702MB][100%][==================================================][348.6kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_34.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_34.root
+[1.723MB/1.723MB][100%][==================================================][252kB/s]  [1.723MB/1.723MB][100%][==================================================][252kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_32.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_32.root
+[1.375MB/1.375MB][100%][==================================================][352kB/s]  [1.375MB/1.375MB][100%][==================================================][352kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_31.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_31.root
+[1.398MB/1.398MB][100%][==================================================][159kB/s]  [1.398MB/1.398MB][100%][==================================================][159kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_30.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_30.root
+[1.394MB/1.394MB][100%][==================================================][178.4kB/s]  [1.394MB/1.394MB][100%][==================================================][178.4kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_29.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_29.root
+[1.385MB/1.385MB][100%][==================================================][177.3kB/s]  [1.385MB/1.385MB][100%][==================================================][177.3kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_28.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_28.root
+[1.398MB/1.398MB][100%][==================================================][119.3kB/s]  [1.398MB/1.398MB][100%][==================================================][119.3kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_27.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_27.root
+[1.398MB/1.398MB][100%][==================================================][238.6kB/s]  [1.398MB/1.398MB][100%][==================================================][238.6kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_26.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_26.root
+[1.4MB/1.4MB][100%][==================================================][179.2kB/s]  [1.4MB/1.4MB][100%][==================================================][179.2kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_25.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_25.root
+[1.383MB/1.383MB][100%][==================================================][177.1kB/s]  [1.383MB/1.383MB][100%][==================================================][177.1kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_24.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_24.root
+[1.374MB/1.374MB][100%][==================================================][175.9kB/s]  [1.374MB/1.374MB][100%][==================================================][175.9kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_23.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_23.root
+[1.402MB/1.402MB][100%][==================================================][130.5kB/s]  [1.402MB/1.402MB][100%][==================================================][130.5kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_22.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_22.root
+[1.406MB/1.406MB][100%][==================================================][144kB/s]  [1.406MB/1.406MB][100%][==================================================][130.9kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_18.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_18.root
+[1.407MB/1.407MB][100%][==================================================][131kB/s]  [1.407MB/1.407MB][100%][==================================================][131kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_20.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_20.root
+[1.372MB/1.372MB][100%][==================================================][175.7kB/s]  [1.372MB/1.372MB][100%][==================================================][175.7kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_Pbp_HM250_Lambda_7/PAHighMultiplicity7/crab_pPb2016_Pbp_HM250_Lambda_7/200112_183956/0000/vnanal_19.root /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/vnanal_19.root
+[1.396MB/1.396MB][100%][==================================================][178.6kB/s]  [1.396MB/1.396MB][100%][==================================================][158.8kB/s]  
+Another 12 files were FOUND.
+ ====================================================
+i 18	crab_pPb2016_Pbp_Ks
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_Ks
+Task name:			200112_141629:ssanders_crab_pPb2016_Pbp_Ks
+Grid scheduler - Task Worker:	crab3@vocms0195.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_141629%3Assanders_crab_pPb2016_Pbp_Ks
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_141629%3Assanders_crab_pPb2016_Pbp_Ks
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  0.3% (  1/300)
+				finished     		 99.7% (299/300)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  1 jobs failed with exit code 8028
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 27MB min, 646MB max, 565MB ave
+ * Runtime: 0:03:42 min, 1:52:00 max, 0:28:01 ave
+ * CPU eff: 8% min, 86% max, 33% ave
+ * Waste: 2:09:49 (2% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_Ks/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_Ks >> crab_pPb2016_Pbp_Ks_files.lis
+Reading from crab_pPb2016_Pbp_Ks_files.lis
+Another 299 files were FOUND.
+ ====================================================
+i 19	crab_pPb2016_Pbp_Lambda
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_Lambda
+Task name:			200112_142852:ssanders_crab_pPb2016_Pbp_Lambda
+Grid scheduler - Task Worker:	crab3@vocms0194.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_142852%3Assanders_crab_pPb2016_Pbp_Lambda
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_142852%3Assanders_crab_pPb2016_Pbp_Lambda
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  0.2% (  1/420)
+				finished     		 99.8% (419/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  1 jobs failed with exit code 8028
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 2MB min, 646MB max, 538MB ave
+ * Runtime: 0:03:24 min, 1:27:22 max, 0:16:16 ave
+ * CPU eff: 8% min, 85% max, 43% ave
+ * Waste: 1:31:05 (1% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_Pbp_Lambda/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_Pbp_Lambda >> crab_pPb2016_Pbp_Lambda_files.lis
+Reading from crab_pPb2016_Pbp_Lambda_files.lis
+Another 419 files were FOUND.
+ ====================================================
+i 20	crab_pPb2016_pPb_HM120_Ks
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM120_Ks
+Task name:			200110_172017:ssanders_crab_pPb2016_pPb_HM120_Ks
+Grid scheduler - Task Worker:	crab3@vocms0106.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_172017%3Assanders_crab_pPb2016_pPb_HM120_Ks
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_172017%3Assanders_crab_pPb2016_pPb_HM120_Ks
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  4.8% ( 20/420)
+				finished     		 95.2% (400/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+ 20 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 916MB min, 1691MB max, 936MB ave
+ * Runtime: 0:30:04 min, 9:31:37 max, 3:19:42 ave
+ * CPU eff: 6% min, 64% max, 42% ave
+ * Waste: 29:31:15 (2% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM120_Ks/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM120_Ks >> crab_pPb2016_pPb_HM120_Ks_files.lis
+Reading from crab_pPb2016_pPb_HM120_Ks_files.lis
+Another 400 files were FOUND.
+ ====================================================
+i 21	crab_pPb2016_pPb_HM120_Lambda
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM120_Lambda
+Task name:			200112_172759:ssanders_crab_pPb2016_pPb_HM120_Lambda
+Grid scheduler - Task Worker:	crab3@vocms0144.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_172759%3Assanders_crab_pPb2016_pPb_HM120_Lambda
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_172759%3Assanders_crab_pPb2016_pPb_HM120_Lambda
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    failed       		  0.2% (  1/476)
+				finished     		  0.2% (  1/476)
+				idle         		 97.9% (466/476)
+				unsubmitted  		  1.7% (  8/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  1 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 955MB max, 945MB ave
+ * Runtime: 0:00:00 min, 2:30:57 max, 2:12:20 ave
+ * CPU eff: 6% min, 56% max, 34% ave
+ * Waste: 0:00:17 (0% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM120_Lambda/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM120_Lambda >> crab_pPb2016_pPb_HM120_Lambda_files.lis
+Reading from crab_pPb2016_pPb_HM120_Lambda_files.lis
+Another 1 files were FOUND.
+ ====================================================
+i 22	crab_pPb2016_pPb_HM150_Ks
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM150_Ks
+Task name:			200110_172239:ssanders_crab_pPb2016_pPb_HM150_Ks
+Grid scheduler - Task Worker:	crab3@vocms0196.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_172239%3Assanders_crab_pPb2016_pPb_HM150_Ks
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_172239%3Assanders_crab_pPb2016_pPb_HM150_Ks
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  4.5% ( 19/420)
+				finished     		 95.5% (401/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+ 17 jobs failed with exit code 134
+
+  2 jobs failed with exit code 50664
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 985MB min, 1746MB max, 934MB ave
+ * Runtime: 0:27:46 min, 20:49:50 max, 6:18:21 ave
+ * CPU eff: 6% min, 68% max, 26% ave
+ * Waste: 106:06:01 (4% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM150_Ks/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM150_Ks >> crab_pPb2016_pPb_HM150_Ks_files.lis
+Reading from crab_pPb2016_pPb_HM150_Ks_files.lis
+Another 401 files were FOUND.
+ ====================================================
+i 23	crab_pPb2016_pPb_HM150_Lambda
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM150_Lambda
+Task name:			200112_172854:ssanders_crab_pPb2016_pPb_HM150_Lambda
+Grid scheduler - Task Worker:	crab3@vocms0196.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_172854%3Assanders_crab_pPb2016_pPb_HM150_Lambda
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_172854%3Assanders_crab_pPb2016_pPb_HM150_Lambda
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 80.0% (381/476)
+				unsubmitted  		 20.0% ( 95/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM150_Lambda/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM150_Lambda >> crab_pPb2016_pPb_HM150_Lambda_files.lis
+Reading from crab_pPb2016_pPb_HM150_Lambda_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM150_Lambda/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 24	crab_pPb2016_pPb_HM185_Ks_1
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_1
+Task name:			200110_014344:ssanders_crab_pPb2016_pPb_HM185_Ks_1
+Grid scheduler - Task Worker:	crab3@vocms0107.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_014344%3Assanders_crab_pPb2016_pPb_HM185_Ks_1
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_014344%3Assanders_crab_pPb2016_pPb_HM185_Ks_1
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	COMPLETED
+
+Jobs status:                    finished     		100.0% (420/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 34MB min, 997MB max, 604MB ave
+ * Runtime: 0:01:46 min, 5:04:12 max, 1:06:16 ave
+ * CPU eff: 2% min, 69% max, 46% ave
+ * Waste: 48:19:27 (9% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_1/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Ks_1 >> crab_pPb2016_pPb_HM185_Ks_1_files.lis
+Reading from crab_pPb2016_pPb_HM185_Ks_1_files.lis
+Another 420 files were FOUND.
+ ====================================================
+i 25	crab_pPb2016_pPb_HM185_Ks_2
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_2
+Task name:			200110_023046:ssanders_crab_pPb2016_pPb_HM185_Ks_2
+Grid scheduler - Task Worker:	crab3@vocms0199.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_023046%3Assanders_crab_pPb2016_pPb_HM185_Ks_2
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_023046%3Assanders_crab_pPb2016_pPb_HM185_Ks_2
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	COMPLETED
+
+Jobs status:                    finished     		100.0% (420/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 13MB min, 987MB max, 637MB ave
+ * Runtime: 0:02:39 min, 4:36:02 max, 1:06:12 ave
+ * CPU eff: 5% min, 71% max, 46% ave
+ * Waste: 20:50:36 (4% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_2/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Ks_2 >> crab_pPb2016_pPb_HM185_Ks_2_files.lis
+Reading from crab_pPb2016_pPb_HM185_Ks_2_files.lis
+Another 420 files were FOUND.
+ ====================================================
+i 26	crab_pPb2016_pPb_HM185_Ks_3
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_3
+Task name:			200110_023911:ssanders_crab_pPb2016_pPb_HM185_Ks_3
+Grid scheduler - Task Worker:	crab3@vocms0106.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_023911%3Assanders_crab_pPb2016_pPb_HM185_Ks_3
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_023911%3Assanders_crab_pPb2016_pPb_HM185_Ks_3
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	COMPLETED
+
+Jobs status:                    finished     		100.0% (420/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Summary of run jobs:
+ * Memory: 2MB min, 977MB max, 607MB ave
+ * Runtime: 0:01:42 min, 4:02:50 max, 0:57:21 ave
+ * CPU eff: 10% min, 74% max, 60% ave
+ * Waste: 3:17:25 (1% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_3/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Ks_3 >> crab_pPb2016_pPb_HM185_Ks_3_files.lis
+Reading from crab_pPb2016_pPb_HM185_Ks_3_files.lis
+Another 420 files were FOUND.
+ ====================================================
+i 27	crab_pPb2016_pPb_HM185_Ks_4
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_4
+Task name:			200110_125159:ssanders_crab_pPb2016_pPb_HM185_Ks_4
+Grid scheduler - Task Worker:	crab3@vocms0194.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_125159%3Assanders_crab_pPb2016_pPb_HM185_Ks_4
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_125159%3Assanders_crab_pPb2016_pPb_HM185_Ks_4
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	COMPLETED
+
+Jobs status:                    finished     		100.0% (420/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Summary of run jobs:
+ * Memory: 34MB min, 1667MB max, 577MB ave
+ * Runtime: 0:01:39 min, 5:01:31 max, 1:02:09 ave
+ * CPU eff: 12% min, 72% max, 51% ave
+ * Waste: 13:33:37 (3% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_4/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Ks_4 >> crab_pPb2016_pPb_HM185_Ks_4_files.lis
+Reading from crab_pPb2016_pPb_HM185_Ks_4_files.lis
+Another 420 files were FOUND.
+ ====================================================
+i 28	crab_pPb2016_pPb_HM185_Ks_5
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_5
+Task name:			200110_130242:ssanders_crab_pPb2016_pPb_HM185_Ks_5
+Grid scheduler - Task Worker:	crab3@vocms0196.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_130242%3Assanders_crab_pPb2016_pPb_HM185_Ks_5
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_130242%3Assanders_crab_pPb2016_pPb_HM185_Ks_5
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  0.5% (  2/420)
+				finished     		 99.5% (418/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  2 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 18MB min, 1623MB max, 599MB ave
+ * Runtime: 0:01:43 min, 4:42:03 max, 1:04:53 ave
+ * CPU eff: 12% min, 73% max, 49% ave
+ * Waste: 18:28:48 (4% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_5/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Ks_5 >> crab_pPb2016_pPb_HM185_Ks_5_files.lis
+Reading from crab_pPb2016_pPb_HM185_Ks_5_files.lis
+Another 418 files were FOUND.
+ ====================================================
+i 29	crab_pPb2016_pPb_HM185_Ks_6
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_6
+Task name:			200110_130407:ssanders_crab_pPb2016_pPb_HM185_Ks_6
+Grid scheduler - Task Worker:	crab3@vocms0137.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_130407%3Assanders_crab_pPb2016_pPb_HM185_Ks_6
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_130407%3Assanders_crab_pPb2016_pPb_HM185_Ks_6
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  1.0% (  4/420)
+				finished     		 99.0% (416/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  3 jobs failed with exit code 134
+
+  1 jobs failed with exit code 8028
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Summary of run jobs:
+ * Memory: 30MB min, 986MB max, 593MB ave
+ * Runtime: 0:01:42 min, 7:19:03 max, 1:00:12 ave
+ * CPU eff: 11% min, 76% max, 53% ave
+ * Waste: 69:26:33 (14% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Ks_6/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Ks_6 >> crab_pPb2016_pPb_HM185_Ks_6_files.lis
+Reading from crab_pPb2016_pPb_HM185_Ks_6_files.lis
+Another 416 files were FOUND.
+ ====================================================
+i 30	crab_pPb2016_pPb_HM185_Lambda_1
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_1
+Task name:			200112_182044:ssanders_crab_pPb2016_pPb_HM185_Lambda_1
+Grid scheduler - Task Worker:	crab3-5@vocms059.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_182044%3Assanders_crab_pPb2016_pPb_HM185_Lambda_1
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_182044%3Assanders_crab_pPb2016_pPb_HM185_Lambda_1
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    failed       		  0.2% (  1/476)
+				finished     		  1.1% (  5/476)
+				idle         		 98.5% (469/476)
+				running      		  0.2% (  1/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  1 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Summary of run jobs:
+ * Memory: 0MB min, 945MB max, 918MB ave
+ * Runtime: 0:00:00 min, 1:38:14 max, 1:08:40 ave
+ * CPU eff: 44% min, 61% max, 52% ave
+ * Waste: 0:01:55 (0% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_1/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Lambda_1 >> crab_pPb2016_pPb_HM185_Lambda_1_files.lis
+Reading from crab_pPb2016_pPb_HM185_Lambda_1_files.lis
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_1/PAHighMultiplicity1/crab_pPb2016_pPb_HM185_Lambda_1/200112_182044/0000/vnanal_11.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_1/vnanal_11.root
+[2.028MB/2.028MB][100%][==================================================][148.3kB/s]  [2.028MB/2.028MB][100%][==================================================][148.3kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_1/PAHighMultiplicity1/crab_pPb2016_pPb_HM185_Lambda_1/200112_182044/0000/vnanal_10.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_1/vnanal_10.root
+[2.008MB/2.008MB][100%][==================================================][108.2kB/s]  [2.008MB/2.008MB][100%][==================================================][108.2kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_1/PAHighMultiplicity1/crab_pPb2016_pPb_HM185_Lambda_1/200112_182044/0000/vnanal_8.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_1/vnanal_8.root
+[1.988MB/1.988MB][100%][==================================================][203.5kB/s]  [1.988MB/1.988MB][100%][==================================================][203.5kB/s]  
+Another 2 files were FOUND.
+ ====================================================
+i 31	crab_pPb2016_pPb_HM185_Lambda_2
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_2
+Task name:			200112_182221:ssanders_crab_pPb2016_pPb_HM185_Lambda_2
+Grid scheduler - Task Worker:	crab3@vocms0155.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_182221%3Assanders_crab_pPb2016_pPb_HM185_Lambda_2
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_182221%3Assanders_crab_pPb2016_pPb_HM185_Lambda_2
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 82.4% (392/476)
+				unsubmitted  		 17.6% ( 84/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_2/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Lambda_2 >> crab_pPb2016_pPb_HM185_Lambda_2_files.lis
+Reading from crab_pPb2016_pPb_HM185_Lambda_2_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_2/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 32	crab_pPb2016_pPb_HM185_Lambda_3
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3
+Task name:			200112_182835:ssanders_crab_pPb2016_pPb_HM185_Lambda_3
+Grid scheduler - Task Worker:	crab3@vocms0107.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_182835%3Assanders_crab_pPb2016_pPb_HM185_Lambda_3
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_182835%3Assanders_crab_pPb2016_pPb_HM185_Lambda_3
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    finished     		  6.5% ( 31/476)
+				idle         		 78.6% (374/476)
+				unsubmitted  		 14.9% ( 71/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 959MB max, 891MB ave
+ * Runtime: 0:00:00 min, 5:35:54 max, 2:41:43 ave
+ * CPU eff: 34% min, 69% max, 43% ave
+ * Waste: 0:04:23 (0% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Lambda_3 >> crab_pPb2016_pPb_HM185_Lambda_3_files.lis
+Reading from crab_pPb2016_pPb_HM185_Lambda_3_files.lis
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_35.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_35.root
+[2.079MB/2.079MB][100%][==================================================][152.1kB/s]  [2.079MB/2.079MB][100%][==================================================][152.1kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_36.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_36.root
+[2.05MB/2.05MB][100%][==================================================][233.3kB/s]  [2.05MB/2.05MB][100%][==================================================][233.3kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_34.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_34.root
+[2.048MB/2.048MB][100%][==================================================][209.7kB/s]  [2.048MB/2.048MB][100%][==================================================][209.7kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_31.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_31.root
+[2.049MB/2.049MB][100%][==================================================][233.1kB/s]  [2.049MB/2.049MB][100%][==================================================][233.1kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_37.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_37.root
+[2.051MB/2.051MB][100%][==================================================][161.6kB/s]  [2.051MB/2.051MB][100%][==================================================][161.6kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_33.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_33.root
+[2.05MB/2.05MB][100%][==================================================][209.9kB/s]  [2.05MB/2.05MB][100%][==================================================][209.9kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_32.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_32.root
+[2.048MB/2.048MB][100%][==================================================][299.7kB/s]  [2.048MB/2.048MB][100%][==================================================][299.7kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_30.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_30.root
+[2.052MB/2.052MB][100%][==================================================][233.5kB/s]  [2.052MB/2.052MB][100%][==================================================][233.5kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_29.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_29.root
+[2.05MB/2.05MB][100%][==================================================][209.9kB/s]  [2.05MB/2.05MB][100%][==================================================][209.9kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_23.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_23.root
+[2.05MB/2.05MB][100%][==================================================][233.2kB/s]  [2.05MB/2.05MB][100%][==================================================][233.2kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_24.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_24.root
+[0B/0B][100%][==================================================][0B/s]  
+Run: [FATAL] Redirect limit has been reached
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_25.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_25.root
+[2.049MB/2.049MB][100%][==================================================][190.7kB/s]  [2.049MB/2.049MB][100%][==================================================][190.7kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_27.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_27.root
+[2.049MB/2.049MB][100%][==================================================][209.9kB/s]  [2.049MB/2.049MB][100%][==================================================][209.9kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_26.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_26.root
+[2.078MB/2.078MB][100%][==================================================][177.3kB/s]  [2.078MB/2.078MB][100%][==================================================][177.3kB/s]  
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_28.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_28.root
+[0B/0B][100%][==================================================][0B/s]  
+Run: [FATAL] Redirect limit has been reached
+xrdcp root://xrootd.unl.edu//store/user/ssanders/pPb2016_pPb_HM185_Lambda_3/PAHighMultiplicity3/crab_pPb2016_pPb_HM185_Lambda_3/200112_182835/0000/vnanal_21.root /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_3/vnanal_21.root
+[2.04MB/2.04MB][100%][==================================================][261.1kB/s]  [2.04MB/2.04MB][100%][==================================================][261.1kB/s]  
+Another 15 files were FOUND.
+ ====================================================
+i 33	crab_pPb2016_pPb_HM185_Lambda_4
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_4
+Task name:			200112_183525:ssanders_crab_pPb2016_pPb_HM185_Lambda_4
+Grid scheduler - Task Worker:	crab3@vocms0107.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_183525%3Assanders_crab_pPb2016_pPb_HM185_Lambda_4
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_183525%3Assanders_crab_pPb2016_pPb_HM185_Lambda_4
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 82.9% (393/474)
+				unsubmitted  		 17.1% ( 81/474)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_4/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Lambda_4 >> crab_pPb2016_pPb_HM185_Lambda_4_files.lis
+Reading from crab_pPb2016_pPb_HM185_Lambda_4_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_4/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 34	crab_pPb2016_pPb_HM185_Lambda_5
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_5
+Task name:			200112_183649:ssanders_crab_pPb2016_pPb_HM185_Lambda_5
+Grid scheduler - Task Worker:	crab3@vocms0194.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_183649%3Assanders_crab_pPb2016_pPb_HM185_Lambda_5
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_183649%3Assanders_crab_pPb2016_pPb_HM185_Lambda_5
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 85.7% (408/476)
+				unsubmitted  		 14.3% ( 68/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_5/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Lambda_5 >> crab_pPb2016_pPb_HM185_Lambda_5_files.lis
+Reading from crab_pPb2016_pPb_HM185_Lambda_5_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_5/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 35	crab_pPb2016_pPb_HM185_Lambda_6
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_6
+Task name:			200112_183830:ssanders_crab_pPb2016_pPb_HM185_Lambda_6
+Grid scheduler - Task Worker:	crab3@vocms0107.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200112_183830%3Assanders_crab_pPb2016_pPb_HM185_Lambda_6
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200112_183830%3Assanders_crab_pPb2016_pPb_HM185_Lambda_6
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    idle         		 96.6% (460/476)
+				unsubmitted  		  3.4% ( 16/476)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM185_Lambda_6/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM185_Lambda_6 >> crab_pPb2016_pPb_HM185_Lambda_6_files.lis
+Reading from crab_pPb2016_pPb_HM185_Lambda_6_files.lis
+xrdcp root://xrootd.unl.edu/ /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_6/o files to retrieve.
+xrdcp: No such file or directory processing retrieve.
+Another 0 files were FOUND.
+ ====================================================
+i 36	crab_pPb2016_pPb_HM250_Ks_7
+CRAB project directory:		/home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM250_Ks_7
+Task name:			200110_130539:ssanders_crab_pPb2016_pPb_HM250_Ks_7
+Grid scheduler - Task Worker:	crab3@vocms0197.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200110_130539%3Assanders_crab_pPb2016_pPb_HM250_Ks_7
+Dashboard monitoring URL:	https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=ssanders&var-task=200110_130539%3Assanders_crab_pPb2016_pPb_HM250_Ks_7
+In case of issues with the dashboard, please provide feedback to hn-cms-computing-tools@cern.ch
+Status on the scheduler:	FAILED
+
+Jobs status:                    failed       		  1.2% (  5/420)
+				finished     		 98.8% (415/420)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary: (use crab status --verboseErrors for details about the errors)
+
+  5 jobs failed with exit code 139
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 41MB min, 1001MB max, 703MB ave
+ * Runtime: 0:01:33 min, 8:10:00 max, 1:12:11 ave
+ * CPU eff: 12% min, 69% max, 42% ave
+ * Waste: 32:44:42 (6% of total)
+
+Log file is /home/sanders/pPb_2016_v0/VNAnalysis_v0/crab_projects/crab_pPb2016_pPb_HM250_Ks_7/crab.log
+crab getoutput --xrootd -d crab_projects/crab_pPb2016_pPb_HM250_Ks_7 >> crab_pPb2016_pPb_HM250_Ks_7_files.lis

@@ -1,0 +1,21 @@
+#!/bin/sh
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_Ks/*.root > filelists/Pbp_MB_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_Ks/*.root > filelists/pPb_MB_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Ks/*.root > filelists/Pbp_HM120_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM120_Ks/*.root > filelists/pPb_HM120_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM150_Ks/*.root > filelists/Pbp_HM150_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM150_Ks/*.root > filelists/pPb_HM150_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM185_Ks_*/*.root > filelists/Pbp_HM185_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Ks_*/*.root > filelists/pPb_HM185_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Ks_7/*.root > filelists/Pbp_HM250_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM250_Ks_7/*.root > filelists/pPb_HM250_Ks.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_Lambda/*.root > filelists/Pbp_MB_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_Lambda/*.root > filelists/pPb_MB_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM120_Lambda/*.root > filelists/Pbp_HM120_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM120_Lambda/*.root > filelists/pPb_HM120_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM150_Lambda/*.root > filelists/Pbp_HM150_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM150_Lambda/*.root > filelists/pPb_HM150_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM185_Lambda_*/*.root > filelists/Pbp_HM185_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM185_Lambda_*/*.root > filelists/pPb_HM185_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_Pbp_HM250_Lambda_7/*.root > filelists/Pbp_HM250_Lambda.dat
+ls -1 /resfs/sanders/crab_projects/crab_pPb2016_pPb_HM250_Lambda_7/*.root > filelists/pPb_HM250_Lambda.dat

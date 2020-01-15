@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=src_bak
+subdirs_src_src_bak = src_src_bak_QWAna src_src_bak_RecoHI src_src_bak_TrackingCode src_src_bak_HeavyIonsAnalysis src_src_bak_CondFormats

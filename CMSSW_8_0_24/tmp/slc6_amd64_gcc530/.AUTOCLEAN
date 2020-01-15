@@ -1,0 +1,28 @@
+
+/bin/rm -f lib/slc6_amd64_gcc530/CondFormatsHIObjects_xr.rootmap
+/bin/rm -f lib/slc6_amd64_gcc530/CondFormatsHIObjects_xr_rdict.pcm
+/bin/rm -f lib/slc6_amd64_gcc530/libCondFormatsHIObjects.so
+/bin/rm -f test/slc6_amd64_gcc530/testSerializationHIObjects
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/CondFormats/HIObjects
+/bin/touch tmp/common/cache/packs/changed
+/bin/rm -f lib/slc6_amd64_gcc530/pluginHeavyIonsAnalysisHiEvtPlaneCalib.so lib/slc6_amd64_gcc530/HeavyIonsAnalysisHiEvtPlaneCalib.edmplugin
+/bin/rm -f lib/slc6_amd64_gcc530/pluginHeavyIonsAnalysisQWNtrkOfflineProducer.so lib/slc6_amd64_gcc530/HeavyIonsAnalysisQWNtrkOfflineProducer.edmplugin
+/bin/rm -f lib/slc6_amd64_gcc530/pluginHeavyIonsAnalysisVNAnalysis.so lib/slc6_amd64_gcc530/HeavyIonsAnalysisVNAnalysis.edmplugin
+/bin/rm -f lib/slc6_amd64_gcc530/pluginHeavyIonsAnalysisVertexAnalysis.so lib/slc6_amd64_gcc530/HeavyIonsAnalysisVertexAnalysis.edmplugin
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/HeavyIonsAnalysis/Configuration
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/HeavyIonsAnalysis/HiEvtPlaneCalib
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/HeavyIonsAnalysis/QWNtrkOfflineProducer
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/HeavyIonsAnalysis/VNAnalysis
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/HeavyIonsAnalysis/VertexAnalysis
+/bin/touch tmp/common/cache/packs/changed
+edmPluginRefresh lib/slc6_amd64_gcc530
+/bin/rm -f lib/slc6_amd64_gcc530/pluginRecoHIHiEvtPlaneAlgos.so lib/slc6_amd64_gcc530/RecoHIHiEvtPlaneAlgos.edmplugin
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/RecoHI/HiEvtPlaneAlgos
+/bin/touch tmp/common/cache/packs/changed
+edmPluginRefresh lib/slc6_amd64_gcc530
+/bin/rm -f lib/slc6_amd64_gcc530/pluginTrackingCodeHIRun2015Ana.so lib/slc6_amd64_gcc530/TrackingCodeHIRun2015Ana.edmplugin
+/bin/rm -f lib/slc6_amd64_gcc530/pluginTrackingCodepileUpFilterAuto.so lib/slc6_amd64_gcc530/TrackingCodepileUpFilterAuto.edmplugin
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/TrackingCode/HIRun2015Ana
+/bin/rm -rf tmp/slc6_amd64_gcc530/edmplugins/poison/TrackingCode/pileUpFilter
+/bin/touch tmp/common/cache/packs/changed
+edmPluginRefresh lib/slc6_amd64_gcc530

@@ -1,0 +1,7 @@
+tmp/slc6_amd64_gcc530/src/CondFormats/HIObjects/test/testSerializationHIObjects/testSerializationHIObjects.o: \
+ src/CondFormats/HIObjects/test/testSerializationHIObjects.cpp \
+ src/CondFormats/HIObjects/test/../src/headers.h \
+ src/CondFormats/HIObjects/interface/CentralityTable.h \
+ src/CondFormats/HIObjects/interface/RPFlatParams.h \
+ src/CondFormats/HIObjects/interface/UETable.h
+

@@ -1,0 +1,20 @@
+DEBUG 2019-08-28 16:28:31,923: 	 Executing command: 'submit'
+DEBUG 2019-08-28 16:28:31,926: 	 Found CRAB cache file /home/sanders/.crab3
+DEBUG 2019-08-28 16:28:31,935: 	 Checking credentials
+DEBUG 2019-08-28 16:28:31,935: 	 Found proxy file /tmp/x509up_u29137
+DEBUG 2019-08-28 16:28:31,935: 	 Getting proxy life time left
+DEBUG 2019-08-28 16:28:32,037: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u29137 -timeleft
+ output : 604692
+
+ error: 
+ retcode : 0
+DEBUG 2019-08-28 16:28:32,139: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u29137 -actimeleft
+ output : 604691
+
+ error: 
+ retcode : 0
+DEBUG 2019-08-28 16:28:32,139: 	 Proxy lifetime 604692 secs is different from voms extension lifetime 604691 secs for proxy: /tmp/x509up_u29137
+DEBUG 2019-08-28 16:28:32,139: 	 Proxy valid for 167:58:11 hours
+DEBUG 2019-08-28 16:28:32,139: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).

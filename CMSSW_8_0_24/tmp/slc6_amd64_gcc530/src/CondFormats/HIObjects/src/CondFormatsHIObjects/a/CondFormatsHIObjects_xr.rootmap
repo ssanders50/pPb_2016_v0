@@ -1,0 +1,16 @@
+{ decls }
+namespace std {  }
+
+[ libCondFormatsHIObjects.so ]
+# List of selected classes
+class CentralityTable
+class CentralityTable::BinValues
+class CentralityTable::CBin
+class RPFlatParams
+class RPFlatParams::EP
+class UETable
+class vector<CentralityTable::CBin>
+class vector<RPFlatParams::EP>
+header CondFormats/HIObjects/interface/CentralityTable.h
+header CondFormats/HIObjects/interface/RPFlatParams.h
+header CondFormats/HIObjects/interface/UETable.h

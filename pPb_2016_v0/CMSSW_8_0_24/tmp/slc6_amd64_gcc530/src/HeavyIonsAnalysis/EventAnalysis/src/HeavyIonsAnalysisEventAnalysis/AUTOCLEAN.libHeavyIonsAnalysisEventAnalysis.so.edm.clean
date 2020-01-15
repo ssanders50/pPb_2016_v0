@@ -1,0 +1,2 @@
+01:/bin/rm -f lib/slc6_amd64_gcc530/pluginHeavyIonsAnalysisEventAnalysis.so lib/slc6_amd64_gcc530/HeavyIonsAnalysisEventAnalysis.edmplugin
+90:edmPluginRefresh lib/slc6_amd64_gcc530

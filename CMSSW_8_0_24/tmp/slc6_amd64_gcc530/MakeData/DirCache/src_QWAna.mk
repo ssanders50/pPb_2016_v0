@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=QWAna
+subdirs_src_QWAna = src_QWAna_QWNtrkOfflineProducer

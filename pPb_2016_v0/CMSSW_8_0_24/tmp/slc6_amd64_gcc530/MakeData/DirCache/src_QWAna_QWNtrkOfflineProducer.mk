@@ -1,0 +1,2 @@
+ALL_PACKAGES += QWAna/QWNtrkOfflineProducer
+subdirs_src_QWAna_QWNtrkOfflineProducer := src_QWAna_QWNtrkOfflineProducer_python src_QWAna_QWNtrkOfflineProducer_test src_QWAna_QWNtrkOfflineProducer_src

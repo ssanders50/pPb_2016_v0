@@ -1,0 +1,7 @@
+----- Begin Fatal Exception 04-Sep-2019 13:20:35 CDT-----------------------
+An exception of category 'ConfigFileReadError' occurred while
+   [0] Processing the python configuration file named vnanalysis_cfg.py
+Exception Message:
+python encountered the error: <type 'exceptions.IOError'>
+[Errno 2] No such file or directory: 'vnanalysis_cfg.py'
+----- End Fatal Exception -------------------------------------------------

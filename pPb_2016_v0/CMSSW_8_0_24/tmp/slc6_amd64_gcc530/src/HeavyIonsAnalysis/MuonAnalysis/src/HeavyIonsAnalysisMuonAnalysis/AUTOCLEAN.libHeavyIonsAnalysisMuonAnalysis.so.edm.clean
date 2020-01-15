@@ -1,0 +1,2 @@
+01:/bin/rm -f lib/slc6_amd64_gcc530/pluginHeavyIonsAnalysisMuonAnalysis.so lib/slc6_amd64_gcc530/HeavyIonsAnalysisMuonAnalysis.edmplugin
+90:edmPluginRefresh lib/slc6_amd64_gcc530

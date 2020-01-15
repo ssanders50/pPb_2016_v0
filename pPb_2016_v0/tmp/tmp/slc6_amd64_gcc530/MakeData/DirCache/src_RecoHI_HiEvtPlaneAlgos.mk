@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoHI/HiEvtPlaneAlgos
+subdirs_src_RecoHI_HiEvtPlaneAlgos := src_RecoHI_HiEvtPlaneAlgos_python src_RecoHI_HiEvtPlaneAlgos_test src_RecoHI_HiEvtPlaneAlgos_interface src_RecoHI_HiEvtPlaneAlgos_src

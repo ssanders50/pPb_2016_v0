@@ -1,0 +1,31 @@
+#include <iostream>
+#include "TFile.h"
+#include "TCanvas.h"
+#include "TGraphErrors.h"
+#include "TLatex.h"
+#include "TLegend.h"
+
+TFile * fKs = NULL;
+void plotKs(int ntrkmin = 185, int ntrkmax = 250){
+  fKs = new TFile("Ks.root","read");
+  TCanvas * c = new TCanvas("c","c",1400,900);
+  c->Divide(2);
+  TH1D * h = new TH1D("h","h",200,0,8);
+  h->SetMinimum(-0.02);
+  h->SetMaximum(0.3);
+  h->SetXTitle("p_{T} (GeV/c)");
+  h->SetYTitle("v_{2}");
+  c->cd(1);
+  h->Draw();
+  TGraphErrors * g_pside_pPb = (TGraphErrors *) fKs->Get(Form("pPb_%d_%d/vn_PosEta",ntrkmin,ntrkmax));
+  g_pside_pPb->Draw("p");
+  TGraphErrors * g_pside_Pbp = (TGraphErrors *) fKs->Get(Form("Pbp_%d_%d/vn_NegEta",ntrkmin,ntrkmax));
+  g_pside_Pbp->Draw("p");
+  c->cd(2);
+  h->Draw();
+  TGraphErrors * g_Pbside_pPb = (TGraphErrors *) fKs->Get(Form("pPb_%d_%d/vn_NegEta",ntrkmin,ntrkmax));
+  g_Pbside_pPb->Draw("p");
+  TGraphErrors * g_Pbside_Pbp = (TGraphErrors *) fKs->Get(Form("Pbp_%d_%d/vn_PosEta",ntrkmin,ntrkmax));
+  g_Pbside_Pbp->Draw("p");
+
+}

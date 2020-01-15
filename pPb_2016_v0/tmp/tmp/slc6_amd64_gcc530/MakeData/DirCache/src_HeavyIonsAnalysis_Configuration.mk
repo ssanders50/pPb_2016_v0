@@ -1,0 +1,2 @@
+ALL_PACKAGES += HeavyIonsAnalysis/Configuration
+subdirs_src_HeavyIonsAnalysis_Configuration := src_HeavyIonsAnalysis_Configuration_python src_HeavyIonsAnalysis_Configuration_test src_HeavyIonsAnalysis_Configuration_macros

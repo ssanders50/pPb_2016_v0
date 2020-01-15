@@ -1,0 +1,6 @@
+plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneFilter CMS%EDM%Framework%Module
+plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneFilter CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoHIHiEvtPlaneAlgos.so HiEvtPlaneFlatProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoHIHiEvtPlaneAlgos.so HiEvtPlaneFlatProducer CMS%EDM%Framework%ParameterSet%Description

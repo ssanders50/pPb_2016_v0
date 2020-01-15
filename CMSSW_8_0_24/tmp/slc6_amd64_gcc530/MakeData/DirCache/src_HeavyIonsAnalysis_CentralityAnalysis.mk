@@ -1,0 +1,2 @@
+ALL_PACKAGES += HeavyIonsAnalysis/CentralityAnalysis
+subdirs_src_HeavyIonsAnalysis_CentralityAnalysis := src_HeavyIonsAnalysis_CentralityAnalysis_tools

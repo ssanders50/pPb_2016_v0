@@ -1,0 +1,44 @@
+TH1D * Framework::GetSpectra(int roi) {
+  debug = false;
+  TDirectory * dirsave = gDirectory;
+  TH2D * spec;
+  int minNtrk = r[roi].minNtrk;
+  int maxNtrk = r[roi].maxNtrk;
+  string crnge = Form("%d_%d",minNtrk,maxNtrk);
+  string spname = "vnanalyzer/Spectra/"+crnge+"/ptspec";
+  TH2D * ptcnt = (TH2D *) tf->Get(spname.data());
+  spec = (TH2D *) ptcnt->Clone(Form("spec_%s",crnge.data()));
+  spec->SetDirectory(0);
+  double etamin1 = r[roi].minEta1;
+  double etamax1 = r[roi].maxEta1;
+  int ietamin1 = spec->GetYaxis()->FindBin(etamin1+0.01);
+  int ietamax1 = spec->GetYaxis()->FindBin(etamax1-0.01);
+  double etamin2 = r[roi].minEta2;
+  double etamax2 = r[roi].maxEta2;
+  int ietamin2 = spec->GetYaxis()->FindBin(etamin2+0.01);
+  int ietamax2 = spec->GetYaxis()->FindBin(etamax2-0.01);
+  r[roi].spec_NegEta = (TH1D *) spec->ProjectionX(Form("spec1d_%d_%d_NegEta",minNtrk,maxNtrk),ietamin1,ietamax1);
+  r[roi].spec_PosEta = (TH1D *) spec->ProjectionX(Form("spec1d_%d_%d_PosEta",minNtrk,maxNtrk),ietamin2,ietamax2);
+  TH1D * spec1d = (TH1D *) r[roi].spec_NegEta->Clone(Form("spec1d_%d_%d",minNtrk,maxNtrk));
+  spec1d->SetDirectory(0);
+  spec1d->Add(r[roi].spec_PosEta);
+  double bineta = 0.199;
+  for(int i = 0; i<spec1d->GetNbinsX(); i++) {
+    double deta = etamax1-etamin1+etamax2-etamin2;
+    double dpt = spec1d->GetBinWidth(i+1);
+    double binpt = spec1d->GetXaxis()->GetBinCenter(i+1);
+    double eff = 1;
+    spec1d->SetBinContent(i+1,spec1d->GetBinContent(i+1)/deta/dpt);
+    spec1d->SetBinError(i+1,spec1d->GetBinError(i+1)/deta/dpt);
+
+  }
+  spec1d->SetXTitle("p_{T} (GeV/c)");
+  spec1d->SetYTitle("dN/d#eta/dp_{T}");
+  spec1d->SetMarkerStyle(20);
+  spec1d->SetMarkerColor(kBlue);
+  spec1d->SetLineColor(kBlue);
+  spec->Delete();
+  debug = false;
+  dirsave->cd();
+  return spec1d;
+}
