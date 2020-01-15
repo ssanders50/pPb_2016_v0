@@ -1,6 +1,0 @@
-double Framework::GetqABC_sub(int sub, int roi) {
-  double AB = r[roi].qAB_sub[sub]/r[roi].wAB_sub[sub];
-  double AC = r[roi].qAC_sub[sub]/r[roi].wAC_sub[sub];
-  double BC = r[roi].qBC_sub[sub]/r[roi].wBC_sub[sub];
-  return sqrt(AB*AC/BC);
-}
