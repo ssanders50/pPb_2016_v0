@@ -15,12 +15,10 @@ static const int nptbins = 13;
 static const float ptbins[]={0.2, 0.4, 0.6,  0.8,  1.0,  1.40,  1.8,
 			      2.2,  2.8,  3.6,  4.6,  6.0,  7.0, 8.5};
 
-float sub1[2] = {-1.,0};
-float sub2[2] = {0,1.0};
 int ROI[nptbins];
 int ptloc[100];
 TFile * fout = NULL;
-TGraphErrors * vnptCalc(string flist, int mintrk, int maxtrk, int *Markers, int *Colors);
+TGraphErrors * vnptCalc(string flist, int mintrk, int maxtrk, float * sub1, float * sub2, int *Markers, int *Colors);
 
 void vnpt_Ks(){
   int Markers[2];
@@ -37,10 +35,18 @@ void vnpt_Ks(){
   //vnptCalc("filelists/pPb_MB_Ks.dat", 50, 70, Markers, Colors);
   //vnptCalc("filelists/pPb_MB_Ks.dat", 70, 90, Markers, Colors);
   //vnptCalc("filelists/pPb_MB_Ks.dat", 90, 120, Markers, Colors);
-  vnptCalc("filelists/pPb_HM120_Ks.dat", 120, 150, Markers, Colors);
-  vnptCalc("filelists/pPb_HM150_Ks.dat", 150, 185, Markers, Colors);
-  vnptCalc("filelists/pPb_HM185_Ks.dat", 185, 250, Markers, Colors);
-  vnptCalc("filelists/pPb_HM250_Ks.dat", 250, 500, Markers, Colors);
+  float sub1[2] = {-1.,1.0};
+  float sub2[2] = {-1.0,1.0};
+  float sub1a[2] = {-1.,0.0};
+  float sub2a[2] = {0.0,1.0};
+  vnptCalc("filelists/pPb_HM120_Ks.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("filelists/pPb_HM150_Ks.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("filelists/pPb_HM185_Ks.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("filelists/pPb_HM250_Ks.dat", 250, 500, sub1, sub2, Markers, Colors);
+  vnptCalc("filelists/pPb_HM120_Ks.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("filelists/pPb_HM150_Ks.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("filelists/pPb_HM185_Ks.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("filelists/pPb_HM250_Ks.dat", 250, 500, sub1a, sub2a, Markers, Colors);
   Markers[0] = 25;
   Markers[1] = 24;
   Colors[0] = kBlue;
@@ -51,13 +57,17 @@ void vnpt_Ks(){
   //vnptCalc("filelists/Pbp_MB_Ks.dat", 50, 70, Markers, Colors);
   //vnptCalc("filelists/Pbp_MB_Ks.dat", 70, 90, Markers, Colors);
   //vnptCalc("filelists/Pbp_MB_Ks.dat", 90, 120, Markers, Colors);
-  vnptCalc("filelists/Pbp_HM120_Ks.dat", 120, 150, Markers, Colors);
-  vnptCalc("filelists/Pbp_HM150_Ks.dat", 150, 185, Markers, Colors);
-  vnptCalc("filelists/Pbp_HM185_Ks.dat", 185, 250, Markers, Colors);
-  vnptCalc("filelists/Pbp_HM250_Ks.dat", 250, 500, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM120_Ks.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM150_Ks.dat", 150, 185, sub1, sub2, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM185_Ks.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM250_Ks.dat", 250, 500, sub1, sub2, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM120_Ks.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM150_Ks.dat", 150, 185, sub1a, sub2a, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM185_Ks.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("filelists/Pbp_HM250_Ks.dat", 250, 500, sub1a, sub2a, Markers, Colors);
 }
 
-TGraphErrors * vnptCalc(string flist, int mintrk, int maxtrk, int *Markers, int *Colors){
+TGraphErrors * vnptCalc(string flist, int mintrk, int maxtrk, float * sub1, float * sub2, int *Markers, int *Colors){
   std::clock_t start = 0;
   std::clock_t last = 0;
   int order = 2;
@@ -125,9 +135,9 @@ TGraphErrors * vnptCalc(string flist, int mintrk, int maxtrk, int *Markers, int 
   fout->cd();
   TDirectory * subdir;
   if(flist.find("pPb")!=std::string::npos) {
-    subdir = fout->mkdir(Form("pPb_%d_%d",mintrk,maxtrk));
+    subdir = fout->mkdir(Form("pPb_%d_%d_%d_%d",mintrk,maxtrk,(int)sub1[0],(int)sub1[1]));
   } else {
-    subdir = fout->mkdir(Form("Pbp_%d_%d",mintrk,maxtrk));
+    subdir = fout->mkdir(Form("Pbp_%d_%d_%d_%d",mintrk,maxtrk,(int)sub2[0],(int)sub2[1]));
   }
   subdir->cd();
   g[0]->Write("vn_NegEta");
