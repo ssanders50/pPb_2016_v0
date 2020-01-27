@@ -12,6 +12,38 @@ bool Framework::AddFile(){
     system(remove.data());
     return true;
   }
+
+  int minNtrk = r[0].minNtrk;
+  int maxNtrk = r[0].maxNtrk;
+  string crnge = Form("%d_%d",minNtrk,maxNtrk);
+  string spname = "vnanalyzer/Spectra/"+crnge+"/ptspecCnt";
+  TH2D * ptcnt = (TH2D *) tf->Get(spname.data());
+  ptcnt->SetDirectory(0);
+  double etamin1 = r[0].minEta[0];
+  double etamax1 = r[0].maxEta[0];
+  int ietamin1 = ptcnt->GetYaxis()->FindBin(etamin1+0.01);
+  int ietamax1 = ptcnt->GetYaxis()->FindBin(etamax1-0.01);
+  double etamin2 = r[0].minEta[1];
+  double etamax2 = r[0].maxEta[1];
+  int ietamin2 = ptcnt->GetYaxis()->FindBin(etamin2+0.01);
+  int ietamax2 = ptcnt->GetYaxis()->FindBin(etamax2-0.01);
+  if(r[0].spec_NegEta == 0) {
+    r[0].spec_NegEta = (TH1D *) ptcnt->ProjectionX(Form("spec1d_%d_%d_NegEta",minNtrk,maxNtrk),ietamin1,ietamax1);
+    r[0].spec_NegEta->SetDirectory(0);
+    r[0].spec_NegEta->SetMarkerStyle(20);
+    r[0].spec_NegEta->SetMarkerColor(kBlue);
+  } else {
+    r[0].spec_NegEta->Add((TH1D *) ptcnt->ProjectionX(Form("spec1d_%d_%d_NegEta",minNtrk,maxNtrk),ietamin1,ietamax1));
+  }
+  if(r[0].spec_PosEta == 0 ) {
+    r[0].spec_PosEta = (TH1D *) ptcnt->ProjectionX(Form("spec1d_%d_%d_PosEta",minNtrk,maxNtrk),ietamin2,ietamax2);
+    r[0].spec_PosEta->SetDirectory(0);
+    r[0].spec_PosEta->SetMarkerStyle(25);
+    r[0].spec_PosEta->SetMarkerColor(kRed);
+  } else {
+    r[0].spec_PosEta->Add((TH1D *) ptcnt->ProjectionX(Form("spec1d_%d_%d_PosEta",minNtrk,maxNtrk),ietamin2,ietamax2));
+  }
+
   hntrk->Add((TH1D *) tf->Get("vnanalyzer/Ntrk"));
   for(int i = 0; i<nrange; i++) {
     TH2F * ptspec;
