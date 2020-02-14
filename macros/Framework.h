@@ -28,7 +28,6 @@ int qxorders[nqxorder]={2};
 static const uint minRunRange = 326381;
 static const uint maxRunRange = 327565;
 static const int MAXROI = 500;
-static const int MAXRUNS = 500; 
 class Framework{
 public:
   Framework(string filelist="filelist.dat", int histbins = 100, double maxvn=1.2, int CS = 0);
@@ -57,6 +56,8 @@ public:
   double GetNtrk(int roi) {return r[roi].ntrk;}
   double GetVtx(int roi) {return r[roi].vtx;}
   TH1D * GetSpectra();
+  TH1D * GetSpectraNegEta(){return r[0].spec_NegEta;}
+  TH1D * GetSpectraPosEta(){return r[0].spec_PosEta;}
   TH2D * Get2d_sub1(int roi){return r[roi].vn2d[0];}
   TH2D * Get2d_sub2(int roi){return r[roi].vn2d[1];}
   TH1D * Get1d_sub1(int roi){return r[roi].vn1d[0];}
@@ -80,13 +81,88 @@ public:
   void SetMaxMult(int val){maxMult = val;}
   void SetMinRun(int val){minRun = val;}
   void SetMaxRun(int val){maxRun = val;}
-  void SetRuns(int nruns, double * runs); 
   void SaveFrameworkRuns(int roi, TDirectory * dir);
   bool LoadOffsets(string offname);
   FILE * flist;
+  ~Framework(){
+    fclose(flist);
+    for(int i = 0; i<nrange; i++) {
+      for(int j = 0; j<=1; j++) {
+	if(r[i].vn2d[j]) {
+	  Framework::r[i].vn2d[j]->Delete();
+	  r[i].vn2d[j]=0;
+	}
+	if(r[i].hAB[j])  {
+	  Framework::r[i].hAB[j]->Delete(); 
+	  r[i].hAB[j]=0;
+	}
+	if(r[i].hAC[j]) {
+	  Framework::r[i].hAC[j]->Delete(); 
+	  r[i].hAC[j]=0;
+	}
+	if(r[i].hBC[j]) {
+	  Framework::r[i].hBC[j]->Delete(); 
+	  r[i].hBC[j] = 0;
+	}
+	if(r[i].vn1d[j]) {
+	  Framework::r[i].vn1d[j]->Delete(); 
+	  r[i].vn1d[j] = 0;
+	}
+	if(r[i].vn1dMult[j]) {
+	  Framework::r[i].vn1dMult[j]->Delete(); 
+	  r[i].vn1dMult[j]=0;
+	}
+	if(r[i].mult[j]) {
+	  Framework::r[i].mult[j]->Delete(); 
+	  r[i].mult[j]=0;
+	}
+      }
+      if(r[i].spec_NegEta)  {
+	Framework::r[i].spec_NegEta->Delete();
+	r[i].spec_NegEta = 0 ;
+      }
+      if(r[i].spec_PosEta) {
+	Framework::r[i].spec_PosEta->Delete(); 
+	r[i].spec_PosEta = 0;
+      }
+      if(r[i].ptspec) {
+	Framework::r[i].ptspec->Delete(); 
+	r[i].ptspec = 0;
+      }
+    }
+    if(qcnt) {
+      qcnt->Delete();
+      qcnt = 0;
+    }
+    if(avpt) {
+      avpt->Delete();
+      avpt = 0;
+    }
+    if(runs) {
+      runs->Delete(); 
+      runs = 0;
+    }
+    if(qdifx) {
+      qdifx->Delete();
+      qdifx = 0;
+    }
+    if(qdify) {
+      qdify->Delete();
+      qdify = 0;
+    }
+    ran->Delete();
+    if(hntrk) {
+      hntrk->Delete(); 
+      hntrk = 0;
+    }
+    if(runbins) {
+      runbins->Delete(); 
+      runbins = 0;
+    } 
+  }
 private:
   int CS_;
-  TH1D * runbins=NULL;
+  TH1D * runbins=0;
   TRandom * ran;
   double vnxEvt_sub1[MAXROI];
   double vnyEvt_sub1[MAXROI];
@@ -116,19 +192,18 @@ private:
   Double_t rescor[NumEPNames];
   Double_t rescorErr[NumEPNames];
   unsigned int runno_;
-  TH2F * qcnt=nullptr;
-  TH2F * avpt=nullptr;
-  TH1D * runs=NULL;
+  TH2F * qcnt=0;
+  TH2F * avpt=0;
+  TH1D * runs=0;
   /* TH1D * runcnt; */
   /* TH1D * runqx; */
   /* TH1D * runqy; */
-  TH1D * qdifx;
-  TH1D * qdify;
+  TH1D * qdifx=0;
+  TH1D * qdify=0;
   int nruns;
-  double runlist[MAXRUNS];
   int nhistbins_;
   double maxvn_;
-  TH1D * hntrk;
+  TH1D * hntrk=0;
   struct range {
     int order;
     int orderIndx;
@@ -167,14 +242,14 @@ private:
     double wnASub[2][10]={{0}};
     TH2D * vn2d[2];
     TH2D * ptspec=NULL;
-    TH1D * hAB[2];
-    TH1D * hAC[2];
-    TH1D * hBC[2];
-    TH1D * vn1d[2];
-    TH1D * vn1dMult[2];
+    TH1D * hAB[2]={0};
+    TH1D * hAC[2]={0};
+    TH1D * hBC[2]={0};
+    TH1D * vn1d[2]={0};
+    TH1D * vn1dMult[2]={0};
     TH1D * mult[2];
-    TH1D * spec_NegEta;
-    TH1D * spec_PosEta;
+    TH1D * spec_NegEta=0;
+    TH1D * spec_PosEta=0;
     double ang[2];
     double vtx;
     double ntrk;
@@ -196,14 +271,11 @@ Framework::Framework(string filelist,  int nhistbins, double maxvn, int CS){
   fgets(buf,120,flist);
   buf[strlen(buf)-1]=0;
   string infile = buf;
-  cout<<"infile:"<<infile<<":"<<endl;
   tf = new TFile(infile.data(),"read");
   qxtrk[0] = (TH2F *) tf->Get("vnanalyzer/qxtrk2");
   qxtrk[0]->SetDirectory(0);
   qxtrk[0]->Reset();
-  cout<<"qxtrk[0] "<<qxtrk[0]<<endl;
   hntrk = (TH1D *) tf->Get("vnanalyzer/Ntrk");
-  cout<<"Ntrk: "<<hntrk<<endl;
   hntrk->SetDirectory(0);
   hntrk->Reset();
   runs = new TH1D("runs","runs",maxRunRange-minRunRange+1,minRunRange,maxRunRange);
@@ -211,7 +283,6 @@ Framework::Framework(string filelist,  int nhistbins, double maxvn, int CS){
   fclose(flist);
   tf->Close();
   flist = fopen(filelist.data(),"r");
-  cout<<"Return from Framework"<<endl;
 }
 int Framework::SetROIRange(int order, int minNtrk, int maxNtrk, float *sub1, float *sub2, double minPt, double maxPt) {
  
