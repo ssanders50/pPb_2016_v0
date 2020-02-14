@@ -42,6 +42,24 @@ void vnpt(){
   vnptCalc("Ks","filelists/pPb_HM185_Ks.dat", 185, 250, sub1a, sub2a, Markers, Colors);
   vnptCalc("Ks","filelists/pPb_HM250_Ks.dat", 250, 500, sub1a, sub2a, Markers, Colors);
 
+  vnptCalc("Ks_SBPos","filelists/pPb_HM120_Ks_SBPos.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/pPb_HM150_Ks_SBPos.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/pPb_HM185_Ks_SBPos.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/pPb_HM250_Ks_SBPos.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/pPb_HM120_Ks_SBPos.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/pPb_HM150_Ks_SBPos.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/pPb_HM185_Ks_SBPos.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/pPb_HM250_Ks_SBPos.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM120_Ks_SBNeg.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM150_Ks_SBNeg.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM185_Ks_SBNeg.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM250_Ks_SBNeg.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM120_Ks_SBNeg.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM150_Ks_SBNeg.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM185_Ks_SBNeg.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/pPb_HM250_Ks_SBNeg.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
   vnptCalc("Lambda","filelists/pPb_HM120_Lambda.dat", 120, 150, sub1, sub2, Markers, Colors);
   vnptCalc("Lambda","filelists/pPb_HM150_Lambda.dat", 150, 185, sub1, sub2,  Markers, Colors);
   vnptCalc("Lambda","filelists/pPb_HM185_Lambda.dat", 185, 250, sub1, sub2, Markers, Colors);
@@ -51,10 +69,32 @@ void vnpt(){
   vnptCalc("Lambda","filelists/pPb_HM185_Lambda.dat", 185, 250, sub1a, sub2a, Markers, Colors);
   vnptCalc("Lambda","filelists/pPb_HM250_Lambda.dat", 250, 500, sub1a, sub2a, Markers, Colors);
 
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM120_Lambda_SBPos.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM150_Lambda_SBPos.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM185_Lambda_SBPos.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM250_Lambda_SBPos.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM120_Lambda_SBPos.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM150_Lambda_SBPos.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM185_Lambda_SBPos.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/pPb_HM250_Lambda_SBPos.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
+  vnptCalc("Lambda_SBNeg","filelists/pPb_HM120_Lambda_SBNeg.dat", 120, 150, sub1, sub2, Markers, Colors);
+  //vnptCalc("Lambda_SBNeg","filelists/pPb_HM150_Lambda_SBNeg.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Lambda_SBNeg","filelists/pPb_HM185_Lambda_SBNeg.dat", 185, 250, sub1, sub2, Markers, Colors);
+  //vnptCalc("Lambda_SBNeg","filelists/pPb_HM250_Lambda_SBNeg.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("Lambda_SBNeg","filelists/pPb_HM120_Lambda_SBNeg.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  //vnptCalc("Lambda_SBNeg","filelists/pPb_HM150_Lambda_SBNeg.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Lambda_SBNeg","filelists/pPb_HM185_Lambda_SBNeg.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  //vnptCalc("Lambda_SBNeg","filelists/pPb_HM250_Lambda_SBNeg.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
+  vnptCalc("ch","filelists/pPb_HM120_ch.dat", 120, 150, sub1, sub2,  Markers, Colors);
   vnptCalc("ch","filelists/pPb_HM150_ch.dat", 150, 185, sub1, sub2,  Markers, Colors);
   vnptCalc("ch","filelists/pPb_HM185_ch.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("ch","filelists/pPb_HM250_ch.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("ch","filelists/pPb_HM120_ch.dat", 120, 150, sub1a, sub2a,  Markers, Colors);
   vnptCalc("ch","filelists/pPb_HM150_ch.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
   vnptCalc("ch","filelists/pPb_HM185_ch.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("ch","filelists/pPb_HM250_ch.dat", 250, 600, sub1a, sub2a, Markers, Colors);
 
   Markers[0] = 25;
   Markers[1] = 24;
@@ -69,6 +109,24 @@ void vnpt(){
   vnptCalc("Ks","filelists/Pbp_HM185_Ks.dat", 185, 250, sub1a, sub2a, Markers, Colors);
   vnptCalc("Ks","filelists/Pbp_HM250_Ks.dat", 250, 500, sub1a, sub2a, Markers, Colors);
 
+  vnptCalc("Ks_SBPos","filelists/Pbp_HM120_Ks_SBPos.dat", 120, 150, sub1, sub2, Markers, Colors);
+  //vnptCalc("Ks_SBPos","filelists/Pbp_HM150_Ks_SBPos.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/Pbp_HM185_Ks_SBPos.dat", 185, 250, sub1, sub2, Markers, Colors);
+  //vnptCalc("Ks_SBPos","filelists/Pbp_HM250_Ks_SBPos.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/Pbp_HM120_Ks_SBPos.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  //vnptCalc("Ks_SBPos","filelists/Pbp_HM150_Ks_SBPos.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Ks_SBPos","filelists/Pbp_HM185_Ks_SBPos.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  //vnptCalc("Ks_SBPos","filelists/Pbp_HM250_Ks_SBPos.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM120_Ks_SBNeg.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM150_Ks_SBNeg.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM185_Ks_SBNeg.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM250_Ks_SBNeg.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM120_Ks_SBNeg.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM150_Ks_SBNeg.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM185_Ks_SBNeg.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Ks_SBNeg","filelists/Pbp_HM250_Ks_SBNeg.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
   vnptCalc("Lambda","filelists/Pbp_HM120_Lambda.dat", 120, 150, sub1, sub2, Markers, Colors);
   vnptCalc("Lambda","filelists/Pbp_HM150_Lambda.dat", 150, 185, sub1, sub2, Markers, Colors);
   vnptCalc("Lambda","filelists/Pbp_HM185_Lambda.dat", 185, 250, sub1, sub2, Markers, Colors);
@@ -79,18 +137,48 @@ void vnpt(){
   vnptCalc("Lambda","filelists/Pbp_HM250_Lambda.dat", 250, 500, sub1a, sub2a, Markers, Colors);
 
 
+  vnptCalc("Lambda_SBPos","filelists/Pbp_HM120_Lambda_SBPos.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/Pbp_HM150_Lambda_SBPos.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/Pbp_HM185_Lambda_SBPos.dat", 185, 250, sub1, sub2, Markers, Colors);
+  //vnptCalc("Lambda_SBPos","filelists/Pbp_HM250_Lambda_SBPos.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/Pbp_HM120_Lambda_SBPos.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/Pbp_HM150_Lambda_SBPos.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Lambda_SBPos","filelists/Pbp_HM185_Lambda_SBPos.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  //vnptCalc("Lambda_SBPos","filelists/Pbp_HM250_Lambda_SBPos.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
+  //vnptCalc("Lambda_SBNeg","filelists/Pbp_HM120_Lambda_SBNeg.dat", 120, 150, sub1, sub2, Markers, Colors);
+  vnptCalc("Lambda_SBNeg","filelists/Pbp_HM150_Lambda_SBNeg.dat", 150, 185, sub1, sub2,  Markers, Colors);
+  vnptCalc("Lambda_SBNeg","filelists/Pbp_HM185_Lambda_SBNeg.dat", 185, 250, sub1, sub2, Markers, Colors);
+  //vnptCalc("Lambda_SBNeg","filelists/Pbp_HM250_Lambda_SBNeg.dat", 250, 600, sub1, sub2, Markers, Colors);
+  //vnptCalc("Lambda_SBNeg","filelists/Pbp_HM120_Lambda_SBNeg.dat", 120, 150, sub1a, sub2a, Markers, Colors);
+  vnptCalc("Lambda_SBNeg","filelists/Pbp_HM150_Lambda_SBNeg.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
+  vnptCalc("Lambda_SBNeg","filelists/Pbp_HM185_Lambda_SBNeg.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  //vnptCalc("Lambda_SBNeg","filelists/Pbp_HM250_Lambda_SBNeg.dat", 250, 600, sub1a, sub2a, Markers, Colors);
+
+  vnptCalc("ch","filelists/Pbp_HM120_ch.dat", 120, 150, sub1, sub2,  Markers, Colors);
   vnptCalc("ch","filelists/Pbp_HM150_ch.dat", 150, 185, sub1, sub2,  Markers, Colors);
   vnptCalc("ch","filelists/Pbp_HM185_ch.dat", 185, 250, sub1, sub2, Markers, Colors);
+  vnptCalc("ch","filelists/Pbp_HM250_ch.dat", 250, 600, sub1, sub2, Markers, Colors);
+  vnptCalc("ch","filelists/Pbp_HM120_ch.dat", 120, 150, sub1a, sub2a,  Markers, Colors);
   vnptCalc("ch","filelists/Pbp_HM150_ch.dat", 150, 185, sub1a, sub2a,  Markers, Colors);
   vnptCalc("ch","filelists/Pbp_HM185_ch.dat", 185, 250, sub1a, sub2a, Markers, Colors);
+  vnptCalc("ch","filelists/Pbp_HM250_ch.dat", 250, 600, sub1a, sub2a, Markers, Colors);
 
 }
 
 TGraphErrors * vnptCalc(string chan, string flist, int mintrk, int maxtrk, float * sub1, float * sub2, int *Markers, int *Colors){
-  std::clock_t start = 0;
-  std::clock_t last = 0;
+  std::clock_t start = clock();
   int order = 2;
-  Framework * frame = new Framework(flist);
+  FILE * ftest;
+  ftest = fopen(flist.data(),"r");
+  if(ftest==NULL) {
+    cout<<"file not found: "<<flist.data()<<endl;
+  } else {
+    fclose(ftest);
+  }
+  std::cout<<"Channel: "<<chan<<"\t"<<mintrk<<"\t"<<maxtrk<<"\t"<<sub1[0]<<"\t"<<sub1[1]<<std::endl;
+  //Framework * frame = new Framework(flist);
+  std::unique_ptr<Framework> frame(new Framework(flist));
   int iloc = 0;
   
  
@@ -100,9 +188,8 @@ TGraphErrors * vnptCalc(string chan, string flist, int mintrk, int maxtrk, float
     if(ROI[j]<0) {cout<<"ROI ERROR"<<endl; return NULL;}
     ptloc[iloc++] = j;
   }
-  cout<<"iloc: "<<iloc<<endl;
   int nfiles = 0;
-  while(frame->AddFile()) {++nfiles;}
+  while(frame->AddFile() ) {++nfiles;}
   cout<<"processed "<<nfiles<< " files"<<endl;
   double x[2][17];
   double xSub[2][17];
@@ -161,6 +248,14 @@ TGraphErrors * vnptCalc(string chan, string flist, int mintrk, int maxtrk, float
     g[1]->Write("vn_Full_NegEtaEP");
     gSub[1]->Write("vn_Full_NegEtaEP_SubEvt");
   }
+  g[0]->Delete();
+  g[1]->Delete();
+  gSub[0]->Delete();
+  gSub[1]->Delete();
+  //delete frame;
+  clock_t end = clock();
+  double elapsed_secs = double(end-start)/CLOCKS_PER_SEC;
+  cout<<"elapsed time (s) = "<<elapsed_secs<<endl;
   return 0;
 }
 
